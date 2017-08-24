@@ -1,4 +1,4 @@
 # jekyll build
 # jekyll serve
 
-aws s3 sync _site s3://www.juddsolutions.com/
+aws s3 sync --region us-east-2 _site s3://www.cojug.org/
