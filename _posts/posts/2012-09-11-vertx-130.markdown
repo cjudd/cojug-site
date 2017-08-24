@@ -1,0 +1,17 @@
+---
+id: 130
+title: "Vert.x"
+times: "18:30:00"
+dates: 2012-09-11
+layout: post
+---
+ **Abstract**
+
+Vert.x is an event driven application framework that runs on the JVM – a run-time with real concurrency and unrivalled performance. Vert.x then exposes the API in Ruby, Java, Groovy and JavaScript. So you choose what language you want to use. (Scala, Clojure and Python support is on the roadmap too).  
+  
+Vert.x also bundles a host of goodies out-of-the-box including a distributed event bus, Web Sockets, SockJS, a MongoDB persistor and many other features so you can write real applications from the set-off.  
+
+**Bio**
+
+Mac Liaw entered The Ohio State University's Masters Program in Computer Science at age 15. He was a member of the CERN development team that established HTTP and HTML. He is active in the Linux Kernel, Groovy development and Haskell open source project. Currently he is CylaTech.com Inc’s VP of Technology and has been involved in video games development since Playstation 2 and Xbox. He currently oversees PS3 and 360 video games development and special effects projects at CylaTech.com Inc. He also serves as the CTO of Bringshare,&nbsp; a startup launched its public beta in fall 2011 at the DEMO conference in Silicon Valley. Bringshare is an online tool for marketing professionals, entrepreneurs and their businesses measure and evaluate their online marketing investments more efficiently and cost effectively.
+

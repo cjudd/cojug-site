@@ -1,0 +1,164 @@
+/* CSS Document */
+
+.clear {clear: both; height: 1px; line-height: 1px; margin-bottom: -1px;}
+
+#eventlist {
+	width: 100%;
+}
+
+#eventlist h5.componentheading {
+	padding: 5px;
+	margin: 3px;
+}
+
+#eventlist table.contentpaneopen {
+
+}
+
+#eventlist .category {
+	padding: 4px;
+	margin: 2px;
+}
+
+#eventlist .category .image {
+	float: left;
+	padding: 15px 5px 2px 2px;
+}
+
+#eventlist .intro {
+
+}
+
+#eventlist table tr td {
+	text-align: left;
+}
+
+#eventlist div.link {
+	text-align: right;
+}
+
+#eventlist div.date {
+	text-align: left;
+	font-weight: 700;
+}
+
+#eventlist div.time {
+	text-align: left;
+}
+
+#eventlist .sectiontableheader {
+	text-align: left;
+}
+
+#eventlist tr.sectiontableentry1 td {
+
+}
+
+#eventlist tr.sectiontableentry2 td {
+
+}
+
+
+#eventlist tr.sectiontableentry1 td a {
+
+}
+
+#eventlist tr.sectiontableentry2 td a {
+
+}
+
+#eventlist .copyright {
+	text-align: center;
+}
+
+#eventlist .inputbox {
+	margin: 1px;
+}
+
+#eventlist input.button {
+
+}
+
+#eventlist input.disable {
+	color: #555;
+	background: #CCC;
+	border: 1px solid #555;
+	text-align: center;
+}
+
+#eventlist a.link {
+	margin: 3px;
+	padding: 1px 2px 1px 2px;
+}
+
+#eventlist a.link:hover {
+
+}
+
+#eventlist table.edit {
+	width: 90%;
+	text-align: center;
+}
+
+#eventlist table.edit tr th.sectiontableheader {
+	text-align: center;
+}
+
+#eventlist table.details {
+	width: 100%;
+}
+
+#eventlist td.details {
+	text-align: left;
+	padding: 1px 15px 2px 0px;
+	width: 20%;
+}
+
+#eventlist .map {
+	letter-spacing: 2px;
+}
+
+#eventlist .pagenavi {
+	text-align: center;
+}
+
+#eventlist .pagenavi div {
+	margin-top: 5px;
+}
+
+ul.user { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+ul.user li { 
+	float: left; 
+	margin: 5px; 
+	list-style: none; 
+	background: none; 
+}
+
+ul.user li img { 
+	border: 1px solid #AAA;
+	padding: 3px; 
+}
+
+ul.user li span.username, ul.user li a { 
+	width: 120px;
+	display: block; 
+	text-align: center; 
+	font-weight: 700; 
+}
+
+
+  div.gsc-control-cse{
+  	padding-bottom: 1px;
+  	margin-top: 11px !important;
+  }
+
+    .gsc-control-cse{
+  	padding-bottom: 1px;
+  	margin-top: 11px !important;
+  }
+

@@ -1,0 +1,19 @@
+---
+id: 112
+title: "Jasmine"
+times: "11:30:00"
+dates: 2011-11-08
+layout: post
+---
+ **Abstract**
+
+For the majority of the web's life, developers and software companies have identified themselves by the server-side technologies and frameworks they employ to deliver dynamic content to web browsers (.NET & ASP, Java & Struts, Ruby & Rails, etc.). But that distinction is rapidly losing its significance, because dynamic content is no longer enough—users have come to expect dynamic \*interactions\* as well. Developers and organizations that cling to predominantly server-side web development are finding themselves at an increasing disadvantage.  
+  
+That's because in order to build rich, dynamic interfaces—whether it's for a desktop, an iPhone, or a web app—the most viable approach is to write software that executes natively in the environment in which users interact. As a result, in order to excel at building dynamic interactions for the web, one first needs to excel at crafting software with JavaScript, HTML, and CSS.  
+  
+In this talk we'll review how to port several typical application responsibilities—like application logic, event handling, HTML-templating, and routing—from the server-side to the JavaScript. Attendees will be introduced to Jasmine BDD, Backbone for MVC, and several other libraries as well—all with the aim of increasing their client-side craft. For each of the big-ticket concerns, attendees should expect to leave with a clear starting point and direction.
+
+**Bio**
+
+Justin Searls helps people find ways to write better software. He strives to write and help others write well-crafted software that matters. Recently, he's been promoting sustainable web development with test-driven JavaScript by speaking, publishing open source Jasmine libraries and tools (like the jasmine-maven-plugin), and creating interactive demos to help others learning Jasmine (like http://tryjasmine.com)
+

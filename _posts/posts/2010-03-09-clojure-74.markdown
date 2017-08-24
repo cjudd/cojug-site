@@ -1,0 +1,40 @@
+---
+id: 74
+title: "Clojure"
+times: "18:30:00"
+dates: 2010-03-09
+layout: post
+---
+ **Abstract**
+
+What is Clojure? Clojure is a language that challenges the status quo.   
+  
+The status quo says OOP is the one true way.   
+Clojure says functional approach brings much to the table.   
+  
+The status quo says mutability is unavoidable because immutable data structure is too slow. Clojure says through chunking and 32nary tree, you can have immutably everywhere and be able to match and even outperform mutable structures.  
+  
+The status quo says functional language must be pure, and have the purity all the way down to the metal.   
+Clojure says let’s build on JVM and take advantage of the largest eco system in software.  
+  
+The status quo says actor is the new one true way in concurrency.  
+Clojure says Software Transactions Memory (STM) provides great concurrency support.  
+  
+The status quo says to have the best interop with Java, you need to use a OO language.  
+Clojure says you can pass any Clojure data structure back into any Java library as if you are calling it in Java.  
+  
+The status quo says dynamic language is always going to be slow.  
+Clojure says combine type hints with on the fly compilation, you can match Java performance.  
+  
+The status quo says you can’t really design and implement a language that runs well on both JVM and .NET.  
+Clojure says JVM is the primary platform, the .NET CLR version of Clojure is tracking 4-8 weeks behind in features.  
+  
+The status quo says to create a language takes a lot of resources and many tries to get it right.  
+Rich Hickey, the creator of Clojure did it all by himself in 1 year, completely self funded.  
+  
+Come see the rebel with a cause.
+
+**Bio**
+
+Mac Liaw entered The Ohio State University's Masters Program in Computer Science at age 15. He was a member of the CERN development team that established HTTP and HTML. He is active in the Linux Kernel, Groovy development and Haskell open source project. Currently he is CylaTech.com Inc’s VP of Technology and has been involved in video games development since Playstation 2 and Xbox. He currently oversees PS3 and 360 video games development and special effects projects at CylaTech.com Inc. He also serves as the CTO of Worthpoint Corp,&nbsp; an antiques and collectible focused website using Grails and GWT.&nbsp;
+

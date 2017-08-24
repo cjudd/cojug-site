@@ -1,0 +1,22 @@
+---
+id: 143
+title: "Java in Azure"
+times: "11:30:00"
+dates: 2013-05-14
+layout: post
+---
+ **Abstract**
+
+This talk will cover cloud 101 and how Microsoft is supporting the Java world with the different windows Azure cloud offerings.  
+
+**Bio**
+
+Brian H. Prince is an Architect Evangelist for Microsoft.
+
+He gets super excited whenever he talks about technology, especially cloud computing, patterns, and practices. His job it to help customers strategically leverage MS technology, and help them bring their architecture to a super level.
+
+In a past life Brian was a part of super startups, super marketing firms, and consulting firms. Much of his super architecture background includes building super scalable applications, application integration, and award winning web applications. All of them were super.
+
+Further, he is a co-founder of the non-profit organization CodeMash ([www.codemash.org](http://www.codemash.org/)). He speaks at various regional and national technology events including TechEd. He only wishes job didn't require him to say 'super' so much.  
+Brian holds a Bachelor of Arts degree in Computer Science from Capital University, Columbus, Ohio. He is also a zealous gamer. For example, he is a huge fan of Fallout 3. He also knows how to spell defense correctly.
+

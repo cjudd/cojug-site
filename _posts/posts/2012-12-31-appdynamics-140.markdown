@@ -1,0 +1,15 @@
+---
+id: 140
+title: "AppDynamics"
+times: "18:30:00"
+dates: 2012-12-31
+layout: post
+---
+ **Abstract**
+
+TBA  
+
+**Bio**
+
+TBA
+

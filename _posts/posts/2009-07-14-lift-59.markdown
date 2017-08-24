@@ -1,0 +1,24 @@
+---
+id: 59
+title: "Lift"
+times: "11:30:00"
+dates: 2009-07-14
+layout: post
+---
+ **Abstract**
+
+Lift is a web application framework written in Scala. It applies Scala’s unique combination of OOP and Functional programming to the web application development. Through the Scala actors, it has comet support out of box. It also borrows the best ideas from various existing framework.  
+  
+&nbsp;&nbsp;&nbsp; \* Seaside's highly granular sessions and security  
+&nbsp;&nbsp;&nbsp; \* Rails/Grails fast flash-to-bang  
+&nbsp;&nbsp;&nbsp; \* Django's "more than just CRUD is included"  
+&nbsp;&nbsp;&nbsp; \* Wicket's designer-friendly templating style  
+  
+We’ll explore the basic of a Lift web application. Scala knowledge would be useful, though not required for this presentation.
+
+[Slides](http://tinyurl.com/ljdjwh)
+
+**Bio**
+
+Mac Liaw entered The Ohio State University's Masters Program in Computer Science at age 15. He was a member of the CERN development team that established HTTP and HTML. He is active in the Linux Kernel, Groovy development and Haskell open source project.&nbsp; Currently he is the CTO of Worthpoint Corp,&nbsp; an antiques and collectible focused website using Grails and GWT.&nbsp; He also serves as CylaTech.com Inc’s VP of Technology and oversees video games/special effects projects.
+

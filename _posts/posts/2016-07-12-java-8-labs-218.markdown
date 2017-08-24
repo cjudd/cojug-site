@@ -1,0 +1,17 @@
+---
+id: 218
+title: "Java 8 Labs"
+times: "11:30:00"
+dates: 2016-07-12
+layout: post
+---
+ **Abstract**
+
+It feels as though we as Java programmers haven’t had major changes to our language since… Java 5 was it? Let’s explore this vast, rich, new world of Java 8 together with lab exercises you can do on your very own laptop!  
+  
+Bring your laptop (preferably with Java 8 already installed) and we’ll follow a set of exercises that will get you up to speed with lambdas, streams, and other API treats.  
+
+**Bio**
+
+Marc Peabody has been programming in mostly Java, Ruby, and JavaScript over his career. Currently he is a lead developer at IQ Innovations writing an LMS with a super team. He runs a bunch on his free time and loves trying new things.
+
