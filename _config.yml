@@ -46,17 +46,12 @@ plugins:
   - jekyll-archives
 
 jekyll-archives:
-  enabled: all
+  enabled: 
+    -year
   layouts:
     year: year-archive
-    month: month-archive
-    day: day-archive
   permalinks:
     year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
