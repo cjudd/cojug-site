@@ -41,8 +41,7 @@ plugins:
   - jekyll-archives
 
 jekyll-archives:
-  enabled: 
-    -year
+  enabled: all
   layout: 'archive'
   permalinks:
     year: '/:year/'
