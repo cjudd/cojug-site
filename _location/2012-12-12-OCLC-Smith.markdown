@@ -1,7 +1,7 @@
 ---
 title: "OCLC's Smith Building Dinning Room"
 Venue:	"OCLC's Smith building dinning room"
-Homepage:	"http://www.oclc.org/us/en/about/headquarters/maps/"
+Homepage:	"http://www.oclc.org"
 Street:	"6565 Kilgour Place"
 ZIP:	43017-3395
 City:	Dublin
