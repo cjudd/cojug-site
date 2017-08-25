@@ -27,16 +27,13 @@ collections:
     output: true
     permalink: /location/:path/
 
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Central Ohio Java Users Group (COJUG)
+description: >
+  COJUG (Central Ohio Java Users Group) is a group for anyone interested in discussing Java technology, JVM languages, frameworks and libraries in the Java space.
+  COJUG provides a meeting place for Java users to get information, share resources and solutions, increase networking, expand Java Technology expertise, and above all, eat pizza and have fun.  
+  COJUG meets on the second Tuesday of every month to discuss anything java.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Build settings
@@ -48,8 +45,7 @@ plugins:
 jekyll-archives:
   enabled: 
     -year
-  layouts:
-    year: year-archive
+  layout: 'archive'
   permalinks:
     year: '/:year/'
 
