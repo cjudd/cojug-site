@@ -29,9 +29,7 @@ collections:
 
 title: Central Ohio Java Users Group (COJUG)
 description: >
-  COJUG (Central Ohio Java Users Group) is a group for anyone interested in discussing Java technology, JVM languages, frameworks and libraries in the Java space.
-  COJUG provides a meeting place for Java users to get information, share resources and solutions, increase networking, expand Java Technology expertise, and above all, eat pizza and have fun.  
-  COJUG meets on the second Tuesday of every month to discuss anything java.
+ COJUG (Central Ohio Java Users Group) is a group for anyone interested in discussing Java technology, JVM languages, frameworks and libraries in the Java space. COJUG provides a meeting place for Java users to get information, share resources and solutions, increase networking, expand Java Technology expertise, and above all, eat pizza and have fun. COJUG meets on the second Tuesday of every month to discuss anything java.
 baseurl: "" 
 url: "localhost:4000" 
 permalink: pretty
