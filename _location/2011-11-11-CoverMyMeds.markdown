@@ -1,4 +1,5 @@
 ---
+title: "CoverMyMeds Offices"
 Venue: "CoverMyMeds Offices"
 Homepage: "https://www.covermymeds.com/main/contact/"	
 Street: "2 Miranova Pl."
