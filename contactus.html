@@ -4,32 +4,15 @@ breadcrumb: Contact Us
 
 <?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Central Ohio Java Users Group (COJUG) - Contact</title>
-<meta name="description" content="COJUG - Central Ohio Java User's Group" />
-<meta name="keywords" content="COJUG, Java, Ohio, User Group" />
-<meta name="robots" content="index, follow" />
-	<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="../www.cojug.org/templates/jt_simplicity_grey/css/template_css.css" />
-<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico"/>
-</head>
+{% include head.html %}
+
 <body>
 <div align="center"><div style="width:901px;">
 
  {% include header.html %}
  {% include nav-breadcrumbs.html %}
 
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="21">&nbsp;</td>
-	<td align="left"><span class="pathway"><a href="http://www.cojug.org/index.php" class="pathway">Home</a> <img src="http://www.cojug.org/templates/jt_simplicity_grey/images/arrow.png" border="0" alt="arrow" />   Contact Us </span></td>
-	
-	<td width="21">&nbsp;</td>
-  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>  </tr>
-</table>
+
 <table width="100%"  border="0" cellspacing="8" cellpadding="0">
   <tr>
     <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
@@ -44,33 +27,7 @@ breadcrumb: Contact Us
 						</td>
 		</tr>
 		</table>
-		</td>        <td><div align="center"></div>		<script language="JavaScript" type="text/javascript">
-		<!--
-		function validate(){
-			if ( ( document.emailForm.text.value == "" ) || ( document.emailForm.email.value.search("@") == -1 ) || ( document.emailForm.email.value.search("[.*]" ) == -1 ) ) {
-				alert( "Please make sure the form is complete and valid." );
-			} else if ( ( document.emailForm.email.value.search(";") != -1 ) || ( document.emailForm.email.value.search(",") != -1 ) || ( document.emailForm.email.value.search(" ") != -1 ) ) {
-				alert( "You cannot enter more than one e-mail address." );
-			} else {
-				document.emailForm.action = "http://www.cojug.org/index.php?option=com_contact&Itemid=3"
-				document.emailForm.submit();
-			}
-		}
-		//-->
-		</script>
-		<script type="text/javascript">
-		<!--
-		function ViewCrossReference( selSelectObject ){
-			var links = new Array();
-			
-links[1]='http://www.cojug.org/index.php?option=com_contact&task=view&contact_id=1&Itemid=3';
-			var sel = selSelectObject.options[selSelectObject.selectedIndex].value
-			if (sel != "") {
-				location.href = links[sel];
-			}
-		}
-		//-->
-		</script>
+		</td>        <td><div align="center"></div>		
 					<div class="componentheading">
 				Contact Us			</div>
 			
@@ -164,4 +121,4 @@ pageTracker._trackPageview();
 </script>
 
 </body>
-</html><!-- 1503518869 -->
+</html>

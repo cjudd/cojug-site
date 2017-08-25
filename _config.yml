@@ -48,7 +48,7 @@ jekyll-archives:
 
 breadcrumbs:
   root:
-    hide: false  # show breadcrumbs on root/home page
+    hide: true  # show breadcrumbs on root/home page
     image: false # Show image or title text
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
