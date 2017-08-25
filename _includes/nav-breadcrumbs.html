@@ -1,6 +1,6 @@
 
 <nav class="breadcrumbs bootstrap hidden-sm-down" {% if (page.url == '/') and (site.breadcrumbs.root.hide) %}{{ 'style="display: none;"' }}{% endif %}>
-  <ol style="margin-top: 5px;margin-bottom: 5px;" class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
+  <ol style="margin-top: 9px; margin-bottom: 5px;" class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
     {% assign position = 0 %}
     {% for crumbitem in breadcrumbs %}
       {% assign position = position  | plus: 1 %}

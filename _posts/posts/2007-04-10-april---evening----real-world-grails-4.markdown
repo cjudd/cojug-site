@@ -4,6 +4,8 @@ title: "April - Evening -  Real World Grails"
 times: "06:30:00"
 dates: 2007-04-10
 layout: post
+description: "Dinner: John Keyes of Fuse will be presenting"
+location-id: "OCLC's Smith building dinning room"
 ---
  **Abstract**
 

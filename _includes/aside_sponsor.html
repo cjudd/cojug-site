@@ -34,9 +34,32 @@ google_ui_features = "rc:6";
 			</tr>
 					<tr>
 			<td>
-				
+{% assign curDate = site.time | date: '%s' %}
+{% for post in site.posts %}
+    {% assign postStartDate = post.date | date: '%s' %}
+    {% if postStartDate >= curDate %}
+    	<a href="{{ post.url | prepend: post.baseurl }}"><p>{{post.date | date: "%a, %b %d" }} - {{post.title}}</p></a>
+    {% endif %}
+{% endfor %}
+
+<!-- {% for post in site.posts %}
+{% capture datenow %}{{'now' | date: '%s'}}{%endcapture %}
+{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+<p>The date now: {{datenow}}</p>
+<p>The date of post: {{posttime}}</p>
+
+
+{% if  datenow < posttime %} 
+<p>Did this print</p>
+<p>{{post.date}} - {{post.title}}</p>
+{% endif %}
+
+{% endfor %} -->
+
 
 <table cellpadding="4" cellspacing="0" border="0" width="100%">
 	</table></td>
 		</tr>
 		</table>
+
+
