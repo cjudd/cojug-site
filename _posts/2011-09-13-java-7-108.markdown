@@ -1,0 +1,25 @@
+---
+id: 108
+title: "Java 7"
+author: "Scott Seighman"
+times: "11:30:00"
+dates: 2011-09-13
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+The Java SE 7 release is the result of nearly five years of industry-wide development involving open review, weekly builds and extensive collaboration between Oracle engineers and members of the worldwide Java community via the OpenJDK project. Over the past year the OpenJDK community has continued to grow, including the addition of major vendors such as IBM and Apple. In June Oracle announced that the Java SE 7 Reference Implementation will be based entirely on the OpenJDK open source code.  
+  
+The Java SE 7 release includes new features such as small language changes for improved developer productivity, a new Filesystem API, support for asynchronous I/O, a new fork/join framework for multicore performance, improved support for dynamic and script languages, updates to security, internationalization and web standards and much more.  
+  
+In this session, we'll provide an overview of the these new features and highlight the major improvements.
+
+[Slides](downloads/JavaSE7Update.pdf)
+
+**Bio**
+
+Scott Seighman is a Principal Sales Consultant with Oracle where his primary focus is architecting open solutions that span the computing landscape, from embedded devices to cloud architectures.&nbsp; Based in Cleveland, Scott is tasked with cultivating the technical staffs within Oracle's Partner community through training, workshops, webinars, product evaluations, and demos.&nbsp; Prior to joining Oracle, Scott spent 12 years with Sun Microsystems as a systems engineer, promoting Java technologies (ME, SE, EE) throughout the Midwest.
+

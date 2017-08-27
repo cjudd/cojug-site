@@ -1,0 +1,23 @@
+---
+id: 50
+title: "Scala"
+author: "Mac Liaw"
+times: "11:30:00"
+dates: 2009-02-10
+layout: post
+location-id: "OCLC's Smith Building Dinning Room"  
+description: 
+tags: 
+---
+ **Abstract**
+
+Why Scala? A new age of JVM is upon us. JVM is no longer just for Java. As Groovy, Jython, and JRuby has proved, there is life for other languages on the JVM. Scala is different than most of the other popular JVM alternative languages. We’ll explore the origin, intent and the philosophy of the Scala programming language.&nbsp; The unique combination of OOP and Functional programming will be presented. Major features of Scala such as actors, type inference and Java integration will also be discussed.
+
+[Slides](http://tinyurl.com/dbrxzy)
+
+[Code](http://m.3wa.com/?p=304)
+
+**Bio**
+
+Mac Liaw entered The Ohio State University's Masters Program in Computer Science at age 15. He was a member of the CERN development team that established HTTP and HTML. He is active in the Linux Kernel, Groovy development and Haskell open source project.&nbsp; Currently he is the CTO of GoAntiques, Inc leading the effort to develop a new antiques and collectible focused social network website using Grails and GWT.&nbsp; He also serves as CylaTech.com Inc’s VP of Technology and oversees video games/special effects projects.
+

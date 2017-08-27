@@ -1,6 +1,6 @@
 ---
 title: "OCLC's Smith Building Dinning Room"
-Venue:	"OCLC's Smith building dinning room"
+Venue:	"OCLC's Smith Building Dinning Room"
 Homepage:	"http://www.oclc.org"
 Street:	"6565 Kilgour Place"
 ZIP:	43017-3395

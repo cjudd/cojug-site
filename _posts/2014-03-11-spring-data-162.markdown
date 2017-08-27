@@ -1,0 +1,25 @@
+---
+id: 162
+title: "Spring Data"
+author: "Craig Walls"
+times: "11:30:00"
+dates: 2014-03-11
+layout: post
+location-id: "OCLC's Kilgour Building Private Dinning Room"  
+description: 
+tags: 
+---
+ **Abstract**
+
+This session starts with a high-level look at all that the Spring Data project has to offer. Then we'll dive deeper into a few select Spring Data modules, including Spring Data Neo4j, Spring Data MongoDB, Spring Data Redis, Spring Data JPA, and Spring Data JDBC Extensions  
+  
+In recent years, there has been a renewed interest in how data is stored. Although RDBMS has long been treated as a one-size-fits-all solution for data storage, a new breed of datastores has arrived to offer a best-fit solution. Key-value stores, column stores, document stores, graph databases, as well as the traditional relational database are options to consider.  
+  
+With these new data storage options come new and different ways of interacting with data. Even though all of these data storage options offer Java APIs, they are widely different from each other and the learning curve can be quite steep. Even if you understand the concepts and benefits of each database type, there's still the huge barrier of understanding how to work with each database's individual API.  
+  
+Spring Data is a project that makes it easier to build Spring-powered applications that use new data, offering a reasonably consistent programming model regardless of which type of database you choose. In addition to supporting the new "NoSQL" databases such as document and graph databases, Spring Data also greatly simplifies working with RDBMS-oriented datastores using JPA.  
+
+**Bio**
+
+Craig Walls is a senior engineer with Pivotal as the Spring Social project lead and is the author of Spring in Action. He's a zealous promoter of the Spring Framework, speaking frequently at local user groups and conferences and writing about Spring. When he's not slinging code, Craig spends as much time as he can with his wife, two daughters, 2 birds and 3 dogs.
+

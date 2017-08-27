@@ -1,6 +1,6 @@
 ---
 title: "OCLC's Kilgour Building Private Dinning Room"
-Venue: "OCLC's Kilgour building private dinning room"
+Venue: "OCLC's Kilgour Building Private Dinning Room"
 Homepage: "http://www.oclc.org"
 Street:	"6565 Kilgour Place"
 ZIP: "43017-3395"

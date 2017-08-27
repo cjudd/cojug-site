@@ -59,25 +59,21 @@ breadcrumb: Home
 
   	{% if previousDate != thisDate %}
     <h3 class="contentheading">
-        Meetings On - {{item.dates | date: "%B %d %Y" }}
+        Meetings On -<time itemprop="dateCreated" datetime="{{post.date}}"> {{item.dates | date: "%B %d %Y" }} </time>
     </h3>
     {% endif %}
 
-    <div>
-
-	</div>
-
       <li>   
         <h2>
-          <a class="post-link" href="{{ item.url | prepend: item.baseurl }}">{{ item.title }}</a>
+          <a title="Permanent Link to {{site.baseurl}}{{item.url}}" class="post-link" href="{{ item.url | prepend: item.baseurl }}">{{ item.title }}</a>
         </h2>
       </li>
 
       <p class="decreaseSpace">{{item.description}}</p>
-      <p  class="decreaseSpace">Time: {{item.times | date: "%I:%M %p"}}</p>
+      <p  class="decreaseSpace"><time itemprop="meetingTime" datetime="{{post.times}}"> Time: {{item.times | date: "%I:%M %p"}} </time></p>
 
 	  {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
-      <p  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
+      <p title="Event Location External Link"  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
      	<br>
 
       {% assign previousDate = {item.dates | date: "%B %d %Y" }} %}

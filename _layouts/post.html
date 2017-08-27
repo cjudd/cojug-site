@@ -54,22 +54,28 @@ breadcrumb: Meetup
   
   	  
   		<tr>
-    		<td class="details">Event title </td>
+    		<td class="details">Event Title </td>
     		<td>{{page.title}}</td>
   		</tr>
-		
-  			  {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
-  		<tr>
-    		<td class="details">Where: </td>
-    		<td>      <p><a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
+            
 
-									<a href="{{page.placeURL}}" target="_blank"> {{page.place}}</a>
-				 		</td>
-  		</tr>
+      <tr>
+        <td class="details">Presenter </td>
+        <td>{{page.author}}</td>
+      </tr>
+		
+          {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
+
+      <tr>
+        <td class="details">Where: </td>
+        <td><a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a><a href="{{page.placeURL}}" target="_blank"> {{page.place}}</a></td>
+      </tr>
+
+
 		<tr>
-    		<td class="details">Category: </td>
+    		<td class="details">Tags: </td>
     		<td>
-				<a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>2017 Meetings</a>			</td>
+				<a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>Tags Go Here</a>			</td>
   		</tr>
 		  		<tr>
     		<td colspan="3">&nbsp;</td>

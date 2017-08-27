@@ -1,0 +1,19 @@
+---
+id: 166
+title: "Geb"
+author: "Brian Balser"
+times: "11:30:00"
+dates: 2014-05-13
+layout: post
+location-id: "OCLC's Kilgour Building Private Dinning Room"  
+description: 
+tags: 
+---
+ **Abstract**
+
+Geb is a very groovy browser automation library that utilizes Webdriver and Page objects.&nbsp; We will explore the Geb api and show functional tests using Geb in junit, spock and cucumber.  
+
+**Bio**
+
+Brian Balser has been a professional software developer for 16 years specializing in Java and Grails.&nbsp; He has been Lead Developer at the University of Dayton and Progressive Medical Inc.&nbsp; Three years ago he discovered TDD and agile development and has since found his home as a Software Craftsman at Pillar Technology Inc.&nbsp; In his free time, Brian loves playing golf and chasing his 18 month old son around the house.
+

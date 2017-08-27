@@ -1,0 +1,25 @@
+---
+id: 172
+title: "Google Glass"
+author: "Hari Bawa"
+times: "18:30:00"
+dates: 2014-07-08
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+Google Glass is a smart eyewear that helps you get exactly what you want, in the moment. Users can search, photos and videos, messaging, apps and do lot more. Google Glass runs on latest Android 4.4 KitKat platform and has robust support for voice commands, audio/video, various sensors, touch gestures and various other features. In this session, I will cover Glass UI guidelines, development using Glass Development Kit (GDK) and side loading existing APK on Glass.  
+
+**Bio**
+
+Hari Bawa is a highly experienced IT Consultant - Managing Architect with Information Control Company (ICC) and has more than 20 years of IT Software Development and Architecture experience.  
+  
+Hari has years of experience in and enjoys developing and architecting solutions in the area of Mobility, Java Enterprise, Business Process Management, Integration/SOA and Model Driven Architecture. He is a Sun Certified Java Programmer, Developer, Web Component Developer and Enterprise Architect.  
+  
+Hari is an avid mobile technology enthusiast and has also worked as an Architect and Developer on mobile projects.  
+  
+Hari can be reached at hsbawa@gmail.com or hbawa@icct.com.
+

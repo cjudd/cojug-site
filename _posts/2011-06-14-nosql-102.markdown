@@ -1,0 +1,42 @@
+---
+id: 102
+title: "NoSQL"
+author: "Iran Hutchinson"
+times: "11:30:00"
+dates: 2011-06-14
+layout: post
+location-id: "OCLC's Kilgour Building Private Dinning Room"  
+description: 
+tags: 
+---
+ **Abstract**
+
+The NoSQL movement has seen a lot of fanfare online.&nbsp; However, after traveling and speaking with customers, colleagues, and other database companies there are number of questions around NoSQL that have inconsistent answers or no answers at all.&nbsp; This session attempts to delve into NoSQL from its origins to modern day to tackle some of these questions:
+
+- What is the NoSQL movement?
+- What are the arguments behind using a NoSQL database for Java?&nbsp;
+- Who is actually deploying these systems?
+- When do I choose a NoSQL database?&nbsp;&nbsp;&nbsp;
+- How do I use a NoSQL database?
+- How to succeed with a NoSQL database and Java?&nbsp;&nbsp;
+- What does the future hold for traditional RDBMS vendors?  
+
+The session will use online data and case studies as well as InterSystems company case studies of successful NoSQL deployments.&nbsp; We will answer the "How do I use a NoSQL database?" question by:
+
+- Installing at least 2 NoSQL databases. (Install takes minutes and requirements/setup are different).
+
+- Reviewing the Java APIs for the installed databases.
+- Writing / Reviewing / Running source code against the Java APIs and comparing the results of implementing a CRUD (Create Read Update Delete) use case.
+- Optimize and measure performance of the solutions in previous.
+- Time permitting, discuss/setup distributed environment for the CRUD tests.  
+
+We will answer the "How do I choose a NoSQL database?" via review of an online editable (wiki) and dynamic feature matrix that hopes to be the foundation for NoSQL comparison information.&nbsp; The matrix is dynamic in that it allows users to compare 1 ~ N databases (N = to the number of databases in the system).&nbsp; The matrix is editable because it allows any registered user to edit/add information.
+
+[Slides](http://globalsdb.files.wordpress.com/2011/06/trouble_with_nosql_dbs.ppt)
+
+[Blog](http:// globalsdb.org/blog)
+
+**Bio**
+
+Iran Hutchinson serves as product manager and software/systems architect at InterSystems.&nbsp; He is one of the people behind the Globals project at [globalsdb.org](globalsdb.org) . He has held architecture and development positions at startups and Fortune 50 companies.&nbsp; He focuses on language platforms, data management technologies, distributed/cloud computing, and high performance computing.&nbsp; When not on trail talking with fellow geeks or behind the computer you can find him eating (just look for the nearest steak house).
+
