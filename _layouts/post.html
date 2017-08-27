@@ -44,7 +44,7 @@ breadcrumb: Meetup
   			<th class="sectiontableheader" colspan="3">Event </th>
   		</tr>
   		<tr>
-    		<td class="details">When: </td>
+    		<td class="details">When </td>
     		<td>
 			{{page.dates}} | {{page.times}}			</td>
     		<td rowspan="4" align="left">
@@ -67,13 +67,13 @@ breadcrumb: Meetup
           {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
 
       <tr>
-        <td class="details">Where: </td>
+        <td class="details">Where </td>
         <td><a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a><a href="{{page.placeURL}}" target="_blank"> {{page.place}}</a></td>
       </tr>
 
 
 		<tr>
-    		<td class="details">Tags: </td>
+    		<td class="details">Tags </td>
     		<td>
 				<a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>Tags Go Here</a>			</td>
   		</tr>
@@ -105,7 +105,7 @@ breadcrumb: Meetup
 			<td colspan="2"><a href='{{eventLocation.url}}'>{{eventLocation.Venue}}</a></td>
   		</tr>
   		<tr>
-    		<td class="details">Homepage: </td>
+    		<td class="details">Homepage </td>
    			<td>
 										<a href="http://www.oclc.org/us/en/about/headquarters/maps/" target="_blank"> {{eventLocation.Homepage}}</a>
 									</td>
@@ -115,7 +115,7 @@ breadcrumb: Meetup
 			</td>
   		</tr>
   		  		<tr>
-    		<td class="details">Street address: </td>
+    		<td class="details">Street address </td>
     		<td><a href="https://maps.google.com/?q={{eventLocation.Street}},{{eventLocation.City}},{{eventLocation.State}} {{eventLocation.ZIP}}">{{eventLocation.Street}} {{eventLocation.City}} {{eventLocation.State}} {{eventLocation.ZIP}}</a></td>
   		</tr>
   		  		<tr>
