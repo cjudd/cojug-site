@@ -53,9 +53,9 @@ breadcrumb: Home
       </table>
      
 <ul>
-  {% assign sorted = (site.frontPage | sort: 'date') %}
+  {% assign sorted = site.frontPage | sort: 'date' %}
   {% for item in sorted %}
-      {% assign thisDate = {item.dates | date: "%B %d %Y" }} %}
+      {% assign thisDate = item.dates | date: "%B %d %Y" %}
 
   	{% if previousDate != thisDate %}
     <h3 class="contentheading">
@@ -76,7 +76,7 @@ breadcrumb: Home
       <p title="Event Location External Link"  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
      	<br>
 
-      {% assign previousDate = {item.dates | date: "%B %d %Y" }} %}
+      {% assign previousDate = item.dates | date: "%B %d %Y" %}
     {% endfor %}
 </ul>
 

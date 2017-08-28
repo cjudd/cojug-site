@@ -22,11 +22,11 @@ breadcrumb: Meetings
                {% include side_nav.html %}
 
 
-		</td>        <td><div align="center"> <h1>Meetings </h1> </div><div id="eventlist">	
+		</td>        <td><div align="center"> <h1 class="contentheading">Meetings </h1> </div><div id="eventlist">	
 
 		<table class="contentpaneopen" style="width:">
 
-   {% for post in site.posts | sort:"date" %}
+   {% for post in site.posts%}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}

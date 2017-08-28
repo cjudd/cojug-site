@@ -1,14 +1,9 @@
-@import "compass/css3";
-
-/*
-	A. Mini Reset 
+/**, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 */
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-
-* {
+/** {
   margin: 0;
   padding: 0;
-}
+}*/
 
 ::before,
 ::after {
@@ -26,7 +21,7 @@ html {
 }
 
 body {
-	background: #ecf0f1;
+	background: white;
 	color: #34495e;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 400;
@@ -42,12 +37,18 @@ ul {
 a {
 	color: #2c3e50;
 	text-decoration: none;
-}
+}*
+
+	.amazonPicture {
+	position: relative;
+    width: 150px;
+    top: -32px;
+    height: 100px;
+	}
 
 .btn {
 	display: inline-block;
 	text-transform: uppercase;
-	border: 2px solid #2c3e50;
 	margin-top: 100px; 
 	font-size: 0.7em;
 	font-weight: 700;
@@ -62,6 +63,8 @@ a {
 	border-color: #16a085;
 	color: #16a085;
 }
+
+
 
 /* basic grid, only for this demo */
 
@@ -103,6 +106,10 @@ Table of Contents
 /*
 	1. container
 */
+figure.book {
+
+	right: 36px;
+}
 
 .book {
 	position: relative;
@@ -685,21 +692,13 @@ Table of Contents
 
 /* figcaption */
 
-figcaption {
-	padding-left: 40px;
-	text-align: left;
-	position: absolute;
-	top: 0%;
-	left: 160px;
-	width: 310px;
-}
 
 figcaption h1 {
 	margin: 0;
 }
 
 figcaption span {
-	color: #16a085;
+	color: rgba(22, 160, 133, 0.57);
 	padding: 0.6em 0 1em 0;
 	display: block;
 }
@@ -716,11 +715,6 @@ figcaption p {
 		min-height: 440px;
 		height: auto;
 		padding: 0;
-		margin: 0 0 30px 0;
-	}
-
-	.book {
-		margin: 0 auto;
 	}
 
 	figcaption {
@@ -731,4 +725,17 @@ figcaption p {
 		left: -80px;
 		font-size: 90%;
 	}
+}
+figcaption {
+	padding-left: 40px;
+	text-align: left;
+	position: absolute;
+	top: 0%;
+	left: 143px;
+	width: 310px;
+}
+
+.griffin {
+	text-align: center;
+	background-image: url(../images/modedBooks/groovyAndGrails.jpg);
 }
