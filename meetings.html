@@ -30,23 +30,23 @@ breadcrumb: Meetings
            {% assign currentDate = post.date | date: "%Y" %}
            {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <a href="../{{ currentDate }}"> <h1>{{ currentDate }}</h1> </a>
+           <a href="../{{ currentDate }}"> <time class="year">{{ currentDate }}</time> </a>
            <ul>
              {% assign myDate = currentDate %}
              {% endif %}
-             <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> | {{ post.title }}</a></li>
+             <li><a href="{{ post.url }}"><time>{{ post.date | date: "%B %-d, %Y" }}</time> | {{ post.title }}</a></li>
              {% if forloop.last %}</ul>{% endif %}
              {% endfor %}
 
            </table>
-           
+
            <div class="clear"></div>
-           
-           
+
+
          </div>
        </td>
        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-         
+
        </td>
      </tr>
    </table>

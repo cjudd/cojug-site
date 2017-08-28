@@ -22,7 +22,7 @@ html {
 
 body {
 	background: white;
-	color: #34495e;
+	color: rgba(0, 0, 0, 0.7);
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 400;
 	line-height: 1.2;
@@ -699,13 +699,13 @@ figcaption h1 {
 }
 
 figcaption span {
-	color: rgba(22, 160, 133, 0.57);
+	color: rgb(0, 0, 0);
 	padding: 0.6em 0 1em 0;
 	display: block;
 }
 
 figcaption p {
-	color: #63707d;
+	color: rgba(0, 0, 0, 0.69);
 	line-height: 1.3;
 }
 
