@@ -1,256 +1,105 @@
 ---
+breadcrumb: Home
 ---
 
 <?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+{% include head.html %}
 
-<!-- Mirrored from www.cojug.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Aug 2017 13:36:36 GMT -->
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Central Ohio Java Users Group (COJUG) - Home</title>
-<meta name="description" content="COJUG - Central Ohio Java User's Group" />
-<meta name="keywords" content="COJUG, Java, Ohio, User Group" />
-<meta name="robots" content="index, follow" />
-	<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="../www.cojug.org/templates/jt_simplicity_grey/css/template_css.css" />
-<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico"/>
-</head>
 <body>
-<div align="center"><div style="width:901px;">
+  <div align="center"><div style="width:901px;">
 
-<!-- header -->
-  <div id="banner">
+   {% include header.html %}
+
+   {% include nav-breadcrumbs.html %}
+
+   <table width="100%"  border="0" cellspacing="8" cellpadding="0">
+    <tr>
+      <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+        <tr valign="top">
+          <td width="160">		
+
+            {% include side_nav.html %}
+            <table cellpadding="0" cellspacing="0" class="moduletable">
+              <tr>
+               <td>
+
+               </td>
+             </tr>
+           </table>
+           <table cellpadding="0" cellspacing="0" class="moduletable">
+             <tr>
+
+             </tr>
+
+         </table>
 
 
-    <div id="search" style="
-    padding-left: 650px;" >
-<script>
-  (function() {
-    var cx = '012665984039341577891:zanz09khomy';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-	</div>
+       </td>        <td><div align="center"></div><table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>	      <table class="contentpaneopen">
 
-    <div id="top-nav">
-      <ul id="mainlevel-nav">
-	    		<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-		</tr>
-		</table>
-		      </ul>
-	</div>
-  </div>
-
-<!-- body -->
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="21">&nbsp;</td>
-	<td align="left"><img src="http://www.cojug.com/templates/jt_simplicity_grey/images/read.png" width="14" height="13" /><span class="pathway">Home </span></td>
-	
-	<td width="21">&nbsp;</td>
-  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Main Menu				</th>
-			</tr>
-					<tr>
-			<td>
-				
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr align="left"><td><a href="{{site.url}}" class="mainlevel" id="active_menu">Home</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/meetings" class="mainlevel" >Meetings</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/books" class="mainlevel" >Recommended Books</a></td></tr>
-
-<tr align="left"><td><a href="{{site.url}}/sponsors" class="mainlevel" >Sponsoring</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/mailing-list" class="mainlevel" >Mailing lists</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/jobs" class="mainlevel" >Jobs</a></td></tr>
-
-<tr align="left"><td><a href="{{site.url}}/contactus" class="mainlevel" >Contact Us</a></td></tr>
-</table>			</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-			<td>
-				
-		</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				
-			</tr>
-					<tr>
-			<td>
-					
-	<input type="hidden" name="option" value="login" />
-	<input type="hidden" name="op2" value="login" />
-	<input type="hidden" name="lang" value="english" />
-	<input type="hidden" name="return" value="http://www.cojug.org/index.php" />
-	<input type="hidden" name="message" value="0" />
-	<input type="hidden" name="force_session" value="1" />
-	<input type="hidden" name="j843f4290f3cc97fa8982b4053a021126" value="1" />
-	</form>
-				</td>
-		</tr>
-		</table>
-
-				
-		</td>        <td><div align="center"></div><table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>	      <table class="contentpaneopen">
-
-      </table>
+     </table>
      
-<ul>
-  {% assign sorted = (site.frontPage | sort: 'date') %}
-  {% for item in sorted %}
-      {% assign thisDate = {item.dates | date: "%B %d %Y" }} %}
+     <ul>
+      {% assign sorted = site.frontPage | sort: 'date' %}
+      {% for item in sorted %}
+      {% assign thisDate = item.dates | date: "%B %d %Y" %}
 
-  	{% if previousDate != thisDate %}
-    <h3 class="contentheading">
-        Meetings On - {{item.dates | date: "%B %d %Y" }}
-    </h3>
-    {% endif %}
-
-    <div>
-
-	</div>
+      {% if previousDate != thisDate %}
+      <h3 class="contentheading">
+        Meetings On -<time itemprop="dateCreated" datetime="{{post.date}}"> {{item.dates | date: "%B %d %Y" }} </time>
+      </h3>
+      {% endif %}
 
       <li>   
         <h2>
-          <a class="post-link" href="{{ item.url | prepend: item.baseurl }}">{{ item.title }}</a>
+          <a title="Permanent Link to {{site.baseurl}}{{item.url}}" class="post-link" href="{{ item.url | prepend: item.baseurl }}">{{ item.title }}</a>
         </h2>
       </li>
 
       <p class="decreaseSpace">{{item.description}}</p>
-      <p  class="decreaseSpace">Time: {{item.times | date: "%I:%M %p"}}</p>
+      <p  class="decreaseSpace"><time itemprop="meetingTime" datetime="{{post.times}}"> Time: {{item.times | date: "%I:%M %p"}} </time></p>
 
-	  {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
-      <p  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
-     	<br>
+      {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
+      <p title="Event Location External Link"  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
+      <br>
 
-      {% assign previousDate = {item.dates | date: "%B %d %Y" }} %}
-    {% endfor %}
-</ul>
+      {% assign previousDate = item.dates | date: "%B %d %Y" %}
+      {% endfor %}
+    </ul>
 
-
-<!-- {% for post in site.posts %}
-  <p><a href="{{post.url}}">{{ post.title }}</a></p>
-{% endfor %}
- -->
     <span class="article_seperator">&nbsp;</span>
 
-    </div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">      <table class="contentpaneopen">
-      <tr>
-                <td class="contentheading" width="100%">
-          Welcome to COJUG!                  </td>
-              </tr>
-      </table>
-      
-    <table class="contentpaneopen">
-        <tr>
-      <td valign="top" colspan="2">
-        <p>The Central Ohio Java User&#39;s Group (COJUG) is a community run group with the goal of promoting Java and related technologies through monthly meetings and other events.</p><p>&nbsp;The monthly meetings are held the second Tuesday of the month. To be notified of the meetings, sign up for the <a href="index6062.html?option=com_content&amp;task=view&amp;id=17&amp;Itemid=26">announcement mailing list</a>  or the RSS feed.</p><p>Pictures from a recent meeting.&nbsp;</p><p><img src="http://www.cojug.com/images/meeting1.jpg" alt="Recent COJUG meeting" width="378" height="281" /></p><p><img src="http://www.cojug.com/images/meeting2.jpg" alt="Another recent COJUG meeting." width="380" height="284" /> </p>  </td>
+  </div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">      <table class="contentpaneopen">
+  <tr>
+    <td  width="100%">
+     <h1 class="contentheading"> Welcome to COJUG!  </h1></td>
     </tr>
-        </table>
+  </table>
 
+  <table class="contentpaneopen">
+    <tr>
+      <td valign="top" colspan="2">
+      <p>The Central Ohio Java User&#39;s Group (COJUG) is a community run group with the goal of promoting Java and related technologies through monthly meetings and other events.</p><p>&nbsp;The monthly meetings are held the second Tuesday of the month. To be notified of the meetings, sign up for the <a href="index6062.html?option=com_content&amp;task=view&amp;id=17&amp;Itemid=26">announcement mailing list</a>  or the RSS feed.</p><p>Pictures from a recent meeting.&nbsp;</p><p><img alt="Cojug Meeting Picture One" src="{{site.baseurl}}/assets/images/meeting1.jpg" alt="Recent COJUG meeting" width="378" height="281" /></p><p><img alt="Cojug Meeting Picture Two" src="{{site.baseurl}}/assets/images/meeting2.jpg" alt="Another recent COJUG meeting." width="380" height="284" /> </p>  </td>
+      </tr>
+    </table>
     <span class="article_seperator">&nbsp;</span>
 
-    </td></tr></table></td></tr></table></td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-				
-			</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Sponsored Links				</th>
-			</tr>
-					<tr>
-			<td>
-				<div style="text-align:center;">
+  </td></tr></table></td></tr></table></td>
+  <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
 
-<script type="text/javascript"><!--
-google_ad_client = "pub-2715727337786638";
-google_alternate_ad_url = "";
-google_ad_width = 120; 
-google_ad_height = 240; 
-google_ad_format = "120x240_as"; 
-google_ad_type = "text_image"; 
-google_ad_channel = "cojug"; 
-google_color_border = "D5D5D5"; 
-google_color_bg = "FFFFFF"; 
-google_color_link = "0033FF"; 
-google_color_text = "333333"; 
-google_color_url = "008000"; 
-google_ui_features = "rc:6"; 
-//--> 
-</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>			</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Upcoming Events				</th>
-			</tr>
-					<tr>
-			<td>
-				
-
-<table cellpadding="4" cellspacing="0" border="0" width="100%">
-	<iframe scrolling="no" width="150" height="379" src="http://meetu.ps/3cJ4GJ"></iframe></table></td>
-		</tr>
-		</table>
-		<br></td>      </tr>
-    </table></td>
-  </tr>
+  </td>
+</tr>
 </table>
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td height="1" background="http://www.cojug.com/templates/jt_simplicity_grey/images/horizontal_dots.png"></td>
-  </tr>
-  <tr>
-    <td align="center"><br><div align="center">
-	&copy; 2017 Central Ohio Java Users Group (COJUG)</div>
 
-<div align="center">
-Java and all Java-based trademarks and logos are trademarks or registered trademarks of Sun Microsystems, Inc. in the United States and other countries.
-<br>
-</div>
-</td>
-  </tr>
-</table>
+{% include aside_sponsor.html %}
+<br></td>      </tr>
+</table></td>
+</tr>
+
+{% include footer.html %}
+
 </div>
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 </body>
 
 </html>

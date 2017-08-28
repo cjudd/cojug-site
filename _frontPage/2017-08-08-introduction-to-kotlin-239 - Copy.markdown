@@ -6,8 +6,7 @@ dates: 2017-08-08
 layout: post
 description: "Lunch: John Keyes of Fuse will be presenting"
 location-id: "CareWorks Headquarters"
-categories: 
-    - "frontPage"
+
 ---
  **Abstract**
 

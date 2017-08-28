@@ -1,288 +1,157 @@
+---
+breadcrumb: Meetup
+---
 
 <?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Central Ohio Java Users Group (COJUG) - Introduction to Kotlin</title>
-<meta name="title" content="Introduction to Kotlin" />
-<meta name="description" content="COJUG - Central Ohio Java User's Group" />
-<meta name="keywords" content="COJUG, Java, Ohio, User Group" />
-<meta name="robots" content="index, follow" />
-<link type="text/css" rel="stylesheet" href="http://www.cojug.org/components/com_eventlist/eventlist.css" />
-	<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="http://www.cojug.org/templates/jt_simplicity_grey/css/template_css.css" />
-		<link rel="stylesheet" type="text/css" href="../www.cojug.org/templates/jt_simplicity_grey/css/template_css.css" />
-<link rel="shortcut icon" href="http://www.cojug.org/images/favicon.ico"/>
 
-<style type="text/css">
-	  div.gsc-control-cse{
-  	padding-bottom: 1px;
-  	margin-top: 11px !important;
-  }
-</style>
+{% include head.html %}
+
 
 </head>
 <body>
-<div align="center"><div style="width:901px;">
+  <div align="center"><div style="width:901px;">
 
-<!-- header -->
-  <div id="banner">
+   {% include header.html %}
+   {% include nav-breadcrumbs.html %}
+
+   <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+    <tr>  </tr>
+  </table>
+  <table width="100%"  border="0" cellspacing="8" cellpadding="0">
+    <tr>
+      <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+        <tr valign="top">
+          <td width="160">		       
+           {% include side_nav.html %}
+
+           <table cellpadding="0" cellspacing="0" class="moduletable">
+            <tr>
+             <td>
+
+             </td>
+           </tr>
+         </table>
+       </td>        <td><div align="center"></div><div id="eventlist">	
+
+       <h2 class="componentheading">Meetings - Details</h2>
+       <h1> {{page.title}}</h1>
+
+       <br />
+
+       <table width="100%" class="details" markdown = "0">
+        <tr>
+         <th class="sectiontableheader" colspan="3">Event </th>
+       </tr>
+       <tr>
+        <td class="details">When </td>
+        <td>
+         {{page.dates}} | {{page.times}}			</td>
+         <td rowspan="4" align="left">
+          &nbsp; 
+        </td>
+      </tr>
 
 
-    <div id="search" style="
-    padding-left: 650px;" >
-<script>
-  (function() {
-    var cx = '012665984039341577891:zanz09khomy';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-	</div>
+      <tr>
+        <td class="details">Event Title </td>
+        <td>{{page.title}}</td>
+      </tr>
 
-    <div id="top-nav">
-      <ul id="mainlevel-nav">
-	    		<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-		</tr>
-		</table>
-		      </ul>
-	</div>
-  </div>
 
-<!-- body -->
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="21">&nbsp;</td>
-	<td align="left"><span class="pathway"><a href="http://www.cojug.org/index.php" class="pathway">Home</a> <img src="http://www.cojug.org/templates/jt_simplicity_grey/images/arrow.png" border="0" alt="arrow" /> <a href="http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27" class="pathway">Meetings</a> <img src="http://www.cojug.org/templates/jt_simplicity_grey/images/arrow.png" border="0" alt="arrow" /> Details</span></td>
-	
-	<td width="21">&nbsp;</td>
-  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Main Menu				</th>
-			</tr>
-					<tr>
-			<td>
-				
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr align="left"><td><a href="{{site.url}}" class="mainlevel" id="active_menu">Home</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/meetings" class="mainlevel" >Meetings</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/books" class="mainlevel" >Recommended Books</a></td></tr>
+      <tr>
+        <td class="details">Presenter </td>
+        <td>{{page.author}}</td>
+      </tr>
 
-<tr align="left"><td><a href="{{site.url}}/sponsors" class="mainlevel" >Sponsoring</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/mailing-list" class="mainlevel" >Mailing lists</a></td></tr>
-<tr align="left"><td><a href="{{site.url}}/jobs" class="mainlevel" >Jobs</a></td></tr>
+      {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
 
-<tr align="left"><td><a href="{{site.url}}/contactus" class="mainlevel" >Contact Us</a></td></tr>
-</table>				</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-			<td>
-				
-	</td>
-		</tr>
-		</table>
-		</td>        <td><div align="center"></div><div id="eventlist">	<table class="contentpaneopen" style="width:100%">
-		<tr>
-			<td width="100%">&nbsp;</td>
-								<td align="right" width="100%" class="buttonheading">
-					
-				</td>
-						</tr>
-	</table>
+      <tr>
+        <td class="details">Where </td>
+        <td><a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a><a href="{{page.placeURL}}" target="_blank"> {{page.place}}</a></td>
+      </tr>
 
-	<h5 class="componentheading">Meetings - Details</h5>
-	<h3> {{page.title}}</h3>
-	
-	<br />
 
-<table width="100%" class="details" markdown = "0">
-  		<tr>
-  			<th class="sectiontableheader" colspan="3">Event </th>
-  		</tr>
-  		<tr>
-    		<td class="details">When: </td>
-    		<td>
-			{{page.dates}} | {{page.times}}			</td>
-    		<td rowspan="4" align="left">
-				&nbsp; 
-			</td>
-  		</tr>
-  
-  	  
-  		<tr>
-    		<td class="details">Event title </td>
-    		<td>{{page.title}}</td>
-  		</tr>
-		
-  			  {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
-  		<tr>
-    		<td class="details">Where: </td>
-    		<td>      <p><a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
+<!--       <tr>
+        <td class="details">Tags </td>
+        <td>
+          <a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>Tags Go Here</a>			</td>
+        </tr> -->
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
 
-									<a href="{{page.placeURL}}" target="_blank"> {{page.place}}</a>
-				 		</td>
-  		</tr>
-		<tr>
-    		<td class="details">Category: </td>
-    		<td>
-				<a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>2017 Meetings</a>			</td>
-  		</tr>
-		  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-		
-  		
-  		<tr>
-    		<td class="sectiontableheader" colspan="3">Event description: </td>
-  		</tr>
-  		<tr>
-    		<td colspan='3' >
 
-					{{page.content}}
-  		</tr>
-  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-  	  	
-  	</table> 
-  	
-	  	<table width="100%" class="details">
-		<tr>
-  			<td class="sectiontableheader" colspan="3">Location </td>
-  		</tr>
-  		<tr>
-  			<td class="details">Venue</td>
-			<td colspan="2"><a href='{{eventLocation.url}}'>{{eventLocation.Venue}}</a></td>
-  		</tr>
-  		<tr>
-    		<td class="details">Homepage: </td>
-   			<td>
-										<a href="http://www.oclc.org/us/en/about/headquarters/maps/" target="_blank"> {{eventLocation.Homepage}}</a>
-									</td>
-    		<td rowspan="3">
-				&nbsp; 
-	
-			</td>
-  		</tr>
-  		  		<tr>
-    		<td class="details">Street address: </td>
-    		<td><a href="https://maps.google.com/?q={{eventLocation.Street}},{{eventLocation.City}},{{eventLocation.State}} {{eventLocation.ZIP}}">{{eventLocation.Street}} {{eventLocation.City}} {{eventLocation.State}} {{eventLocation.ZIP}}</a></td>
-  		</tr>
-  		  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-  		
-   		<tr>
-			<td colspan="3">&nbsp;</td>
-  		</tr>
-			</table>
-	
-		
-	<br />
-	<div align="center">			<div class="back_button">
-				<a href='javascript:history.go(-1)'>
-					[ Back ]</a>
-			</div>
-				</div>
-	</div>
-	<br />
-	</td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-					
-			</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Sponsored Links				</th>
-			</tr>
-					<tr>
-			<td>
-				<div style="text-align:center;">
-<!-- Google AdSense by Joomlaspan :: http://www.joomlaspan.com -->
-<script type="text/javascript"><!--
-google_ad_client = "pub-2715727337786638";
-google_alternate_ad_url = "";
-google_ad_width = 120; 
-google_ad_height = 240; 
-google_ad_format = "120x240_as"; 
-google_ad_type = "text_image"; 
-google_ad_channel = "cojug"; 
-google_color_border = "D5D5D5"; 
-google_color_bg = "FFFFFF"; 
-google_color_link = "0033FF"; 
-google_color_text = "333333"; 
-google_color_url = "008000"; 
-google_ui_features = "rc:6"; 
-//--> 
-</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-<!-- Google AdSense by Joomlaspan :: http://store.joomlaspan.com -->
-</div>			</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				<th valign="top">
-					Upcoming Events				</th>
-			</tr>
-					<tr>
-			<td>
-				
+        <tr>
+          <td class="sectiontableheader" colspan="3">Event description: </td>
+        </tr>
+        <tr>
+          <td colspan='3' >
 
-<table cellpadding="4" cellspacing="0" border="0" width="100%">
-	<iframe scrolling="no" width="150" height="379" src="http://meetu.ps/3cJ4GJ"></iframe></table>			</td>
-		</tr>
-		</table>
-		<br></td>      </tr>
-    </table></td>
-  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td height="1" background="templates/jt_simplicity_grey/images/horizontal_dots.png"></td>
-  </tr>
-  <tr>
-    <td align="center"><br><div align="center">
-	&copy; 2017 Central Ohio Java Users Group (COJUG)</div>
+           {{page.content}}
+         </tr>
+         <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
 
-<div align="center">
-Java and all Java-based trademarks and logos are trademarks or registered trademarks of Sun Microsystems, Inc. in the United States and other countries.
+      </table> 
+
+      <table width="100%" class="details">
+        <tr>
+         <td class="sectiontableheader" colspan="3">Location </td>
+       </tr>
+       <tr>
+         <td class="details">Venue</td>
+         <td colspan="2"><a href='{{eventLocation.url}}'>{{eventLocation.Venue}}</a></td>
+       </tr>
+       <tr>
+        <td class="details">Homepage </td>
+        <td>
+          <a href="http://www.oclc.org/us/en/about/headquarters/maps/" target="_blank"> {{eventLocation.Homepage}}</a>
+        </td>
+        <td rowspan="3">
+          &nbsp; 
+
+        </td>
+      </tr>
+      <tr>
+        <td class="details">Street address </td>
+        <td><a href="https://maps.google.com/?q={{eventLocation.Street}},{{eventLocation.City}},{{eventLocation.State}} {{eventLocation.ZIP}}">{{eventLocation.Street}} {{eventLocation.City}} {{eventLocation.State}} {{eventLocation.ZIP}}</a></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+
+      <tr>
+       <td colspan="3">&nbsp;</td>
+     </tr>
+   </table>
+
+
+   <br />
+   <div align="center">			<div class="back_button">
+    <a href='javascript:history.go(-1)'>
+     [ Back ]</a>
+   </div>
+ </div>
 </div>
-<br></td>
-  </tr>
+<br />
+</td>
+<td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+
+</td>
+</tr>
 </table>
+
+{% include aside_sponsor.html %}
+
+<br></td>      </tr>
+</table></td>
+</tr>
+</table>
+{% include footer.html %}
+
 </div>
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 </body>
 </html>

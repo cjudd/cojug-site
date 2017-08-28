@@ -1,0 +1,19 @@
+---
+id: 139
+title: "AppDynamics"
+author: N/A
+times: "11:30:00"
+dates: 2012-12-31
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+TBA  
+
+**Bio**
+
+TBA
+

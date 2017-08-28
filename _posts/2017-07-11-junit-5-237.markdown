@@ -1,0 +1,19 @@
+---
+id: 237
+title: "JUnit 5"
+author: "John Pendexter"
+times: "11:30:00"
+dates: 2017-07-11
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+With recent updates to the Java language specification (most notably lambdas) the JUnit framework has been updated to take advantage of these changes. Have you ever wished you could better partition your tests? Or add metadata to your tests beyond categories, test names, or comments? This talk will explore JUnit 5 with a focus on making unit testing easier, more efficient, and more structured, using test factories, dynamic tests, default interface methods, custom annotations, and more. Finally, we will look at migrating from JUnit 4 and ways that JUnit 5 features can make taming unruly legacy test suites easier.
+
+**Bio**
+
+John Pendexter is a passionate Java developer and consultant at Manifest Solutions. He enjoys solving difficult problems with code and building resilient web applications. When not writing code John enjoys exploring the reservoirs and rivers in his kayak around Columbus, Ohio and learning to play the mandolin.
+

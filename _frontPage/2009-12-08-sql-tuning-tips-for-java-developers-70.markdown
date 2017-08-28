@@ -5,9 +5,8 @@ times: "18:30:00"
 dates: 2009-12-08
 layout: post
 description: "Dinner: John Keyes of Fuse will be presenting"
-location-id: "OCLC's Smith building dinning room"
-categories: 
-    - "frontPage"
+location-id: "OCLC's Smith Building Dinning Room"
+
 ---
  **Abstract**
 

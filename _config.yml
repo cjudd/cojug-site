@@ -27,37 +27,31 @@ collections:
     output: true
     permalink: /location/:path/
 
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+title: Central Ohio Java Users Group (COJUG)
+description: >
+ COJUG (Central Ohio Java Users Group) is a group for anyone interested in discussing Java technology, JVM languages, frameworks and libraries in the Java space. COJUG provides a meeting place for Java users to get information, share resources and solutions, increase networking, expand Java Technology expertise, and above all, eat pizza and have fun. COJUG meets on the second Tuesday of every month to discuss anything java.
+baseurl: "" 
+url: "localhost:4000" 
 permalink: pretty
 
 # Build settings
 markdown: kramdown
+future: true
 theme: minima
 plugins:
   - jekyll-archives
 
 jekyll-archives:
   enabled: all
-  layouts:
-    year: year-archive
-    month: month-archive
-    day: day-archive
+  layout: 'archive'
   permalinks:
     year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
 
-
-
+breadcrumbs:
+  root:
+    hide: true  # show breadcrumbs on root/home page
+    image: false # Show image or title text
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

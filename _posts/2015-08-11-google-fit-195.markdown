@@ -1,0 +1,29 @@
+---
+id: 195
+title: "Google Fit"
+author: "Hari Bawa"
+times: "11:30:00"
+dates: 2015-08-11
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+Health related devices and information is taking a center stage in common public. There are quite a few smartphones and wearable devices that track various physical activities, store related data and displays that information in various meaningful formats.  
+  
+In this session, I will discuss about the Google Fit, an open ecosystem that allows developers to upload fitness data to a central repository where users can access their data from different devices (ex: phone , wearable sensors) and apps in one location. In this session, we will cover overview of various components like: Fitness data repository/store, Android and REST API for fitness store access, Sensor Framework, permissions and users controls.   
+  
+I will also provide a quick demo and walk through a simple Google Fit application on an Android device.  
+
+**Bio**
+
+Hari Bawa is an IT Consultant with more than 20 plus years of very well-rounded IT experience in the area of Mobility, Desktop, Enterprise Web and Services, Business Process Management, Business Rules Management, Integration, SOA and MDADD (Model Driven Architecture, Design and Development) as an Architect and Developer.   
+  
+Hari is Sun Certified Java Programmer, Developer, Web Component Developer and Enterprise Architect.  
+  
+Hari is also an avid mobile technology enthusiast who enjoys doing hands on and exploring various new/related technologies for Phones/Tablets, Wearables, Google Glass and Android TV.   
+  
+Hari can be reached at hsbawa@gmail.com
+

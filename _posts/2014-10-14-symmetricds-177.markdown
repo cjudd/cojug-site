@@ -1,0 +1,19 @@
+---
+id: 177
+title: "SymmetricDS"
+author: "Eric Long"
+times: "11:30:00"
+dates: 2014-10-14
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: 
+tags: 
+---
+ **Abstract**
+
+SymmetricDS is an open source data synchronization server that can replicate data continuously between multiple databases.&nbsp; Written as a Java web application, it can be configured to use Java code and scripts to perform filtering, routing, and transformation of data.&nbsp; It includes Java extension points and can be embedded within desktop and mobile applications for further customization.&nbsp; Designed to scale for a large number of databases and operate in disconnected mode, it can sync thousands of nodes and operate reliably across low bandwidth networks.&nbsp; Flexible configuration and support for more than a dozen database platforms makes it a useful tool for data integration projects.  
+
+**Bio**
+
+Eric Long is a software developer at JumpMind in Columbus, Ohio, currently working with customers in the retail and legal industries to effectively use SymmetricDS on their projects.&nbsp; As a long-time Linux user and technology enthusiast, he believes in the benefits of open source software.&nbsp; With a background in developing custom applications for Information Technology, he focuses on making light-weight and usable enterprise software to accelerate data integration projects.
+

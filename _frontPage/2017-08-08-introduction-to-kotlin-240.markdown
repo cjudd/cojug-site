@@ -6,8 +6,7 @@ dates: 2017-08-08
 layout: post
 description: "Lunch: John Keyes of Fuse will be presenting"
 location-id: "OCLC's Kilgour building auditorium"
-categories: 
-    - "frontPage"
+
 ---
  **Abstract**
 
