@@ -7,72 +7,62 @@ breadcrumb: Meetings
 {% include head.html %}
 
 <body>
-<div align="center"><div style="width:901px;">
+  <div align="center"><div style="width:901px;">
 
- {% include header.html %}
+   {% include header.html %}
 
- {% include nav-breadcrumbs.html %}
-
-
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		 
-               {% include side_nav.html %}
+   {% include nav-breadcrumbs.html %}
 
 
-		</td>        <td><div align="center"> <h1 class="contentheading">Meetings </h1> </div><div id="eventlist">	
+   <table width="100%"  border="0" cellspacing="8" cellpadding="0">
+    <tr>
+      <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+        <tr valign="top">
+          <td width="160">		 
+           {% include side_nav.html %}
 
-		<table class="contentpaneopen" style="width:">
 
-   {% for post in site.posts%}
-       {% assign currentDate = post.date | date: "%Y" %}
-       {% if currentDate != myDate %}
+         </td>        <td><div align="center"> <h1 class="contentheading">Meetings </h1> </div><div id="eventlist">	
+
+         <table class="contentpaneopen" style="width:">
+
+           {% for post in site.posts%}
+           {% assign currentDate = post.date | date: "%Y" %}
+           {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-          <a href="../{{ currentDate }}"> <h1>{{ currentDate }}</h1> </a>
+           <a href="../{{ currentDate }}"> <h1>{{ currentDate }}</h1> </a>
            <ul>
-           {% assign myDate = currentDate %}
-       {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> | {{ post.title }}</a></li>
-       {% if forloop.last %}</ul>{% endif %}
-   {% endfor %}
+             {% assign myDate = currentDate %}
+             {% endif %}
+             <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> | {{ post.title }}</a></li>
+             {% if forloop.last %}</ul>{% endif %}
+             {% endfor %}
 
-	</table>
-	
-	<div class="clear"></div>
-	
-		
-	</div>
-	</td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-					
-			</td>
-		</tr>
-		</table>
-						{% include aside_sponsor.html %}
+           </table>
+           
+           <div class="clear"></div>
+           
+           
+         </div>
+       </td>
+       <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+         
+       </td>
+     </tr>
+   </table>
+   {% include aside_sponsor.html %}
 
-		</tr>
-		</table>
-		<br></td>      </tr>
-    </table></td>
-  </tr>
+ </tr>
+</table>
+<br></td>      </tr>
+</table></td>
+</tr>
 </table>
 {% include footer.html %}
 
 </div>
 
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 
 </body>
 </html>

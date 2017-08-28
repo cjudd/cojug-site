@@ -7,61 +7,60 @@ breadcrumb: Home
 {% include head.html %}
 
 <body>
-<div align="center"><div style="width:901px;">
+  <div align="center"><div style="width:901px;">
 
- {% include header.html %}
+   {% include header.html %}
 
- {% include nav-breadcrumbs.html %}
+   {% include nav-breadcrumbs.html %}
 
+   <table width="100%"  border="0" cellspacing="8" cellpadding="0">
+    <tr>
+      <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+        <tr valign="top">
+          <td width="160">		
 
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		
+            {% include side_nav.html %}
+            <table cellpadding="0" cellspacing="0" class="moduletable">
+              <tr>
+               <td>
+                
+               </td>
+             </tr>
+           </table>
+           <table cellpadding="0" cellspacing="0" class="moduletable">
+             <tr>
+              
+             </tr>
+             <tr>
+               <td>
+                 
+                 <input type="hidden" name="option" value="login" />
+                 <input type="hidden" name="op2" value="login" />
+                 <input type="hidden" name="lang" value="english" />
+                 <input type="hidden" name="return" value="http://www.cojug.org/index.php" />
+                 <input type="hidden" name="message" value="0" />
+                 <input type="hidden" name="force_session" value="1" />
+                 <input type="hidden" name="j843f4290f3cc97fa8982b4053a021126" value="1" />
+               </form>
+             </td>
+           </tr>
+         </table>
 
-        {% include side_nav.html %}
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-			<td>
-				
-		</td>
-		</tr>
-		</table>
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-					<tr>
-				
-			</tr>
-					<tr>
-			<td>
-					
-	<input type="hidden" name="option" value="login" />
-	<input type="hidden" name="op2" value="login" />
-	<input type="hidden" name="lang" value="english" />
-	<input type="hidden" name="return" value="http://www.cojug.org/index.php" />
-	<input type="hidden" name="message" value="0" />
-	<input type="hidden" name="force_session" value="1" />
-	<input type="hidden" name="j843f4290f3cc97fa8982b4053a021126" value="1" />
-	</form>
-				</td>
-		</tr>
-		</table>
+         
+       </td>        <td><div align="center"></div><table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>	      <table class="contentpaneopen">
 
-				
-		</td>        <td><div align="center"></div><table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>	      <table class="contentpaneopen">
-
-      </table>
+     </table>
      
-<ul>
-  {% assign sorted = site.frontPage | sort: 'date' %}
-  {% for item in sorted %}
+     <ul>
+      {% assign sorted = site.frontPage | sort: 'date' %}
+      {% for item in sorted %}
       {% assign thisDate = item.dates | date: "%B %d %Y" %}
 
-  	{% if previousDate != thisDate %}
-    <h3 class="contentheading">
+      {% if previousDate != thisDate %}
+      <h3 class="contentheading">
         Meetings On -<time itemprop="dateCreated" datetime="{{post.date}}"> {{item.dates | date: "%B %d %Y" }} </time>
-    </h3>
-    {% endif %}
+      </h3>
+      {% endif %}
 
       <li>   
         <h2>
@@ -72,59 +71,48 @@ breadcrumb: Home
       <p class="decreaseSpace">{{item.description}}</p>
       <p  class="decreaseSpace"><time itemprop="meetingTime" datetime="{{post.times}}"> Time: {{item.times | date: "%I:%M %p"}} </time></p>
 
-	  {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
+      {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
       <p title="Event Location External Link"  class="decreaseSpace">Place:<a href="{{eventLocation.Homepage}}"> {{eventLocation.Venue}}</a></p>
-     	<br>
+      <br>
 
       {% assign previousDate = item.dates | date: "%B %d %Y" %}
-    {% endfor %}
-</ul>
+      {% endfor %}
+    </ul>
 
     <span class="article_seperator">&nbsp;</span>
 
-    </div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">      <table class="contentpaneopen">
-      <tr>
-                <td class="contentheading" width="100%">
-          Welcome to COJUG!                  </td>
-              </tr>
-      </table>
-      
-    <table class="contentpaneopen">
-        <tr>
+  </div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">      <table class="contentpaneopen">
+  <tr>
+    <td class="contentheading" width="100%">
+      Welcome to COJUG!                  </td>
+    </tr>
+  </table>
+  
+  <table class="contentpaneopen">
+    <tr>
       <td valign="top" colspan="2">
         <p>The Central Ohio Java User&#39;s Group (COJUG) is a community run group with the goal of promoting Java and related technologies through monthly meetings and other events.</p><p>&nbsp;The monthly meetings are held the second Tuesday of the month. To be notified of the meetings, sign up for the <a href="index6062.html?option=com_content&amp;task=view&amp;id=17&amp;Itemid=26">announcement mailing list</a>  or the RSS feed.</p><p>Pictures from a recent meeting.&nbsp;</p><p><img src="http://www.cojug.com/images/meeting1.jpg" alt="Recent COJUG meeting" width="378" height="281" /></p><p><img src="http://www.cojug.com/images/meeting2.jpg" alt="Another recent COJUG meeting." width="380" height="284" /> </p>  </td>
-    </tr>
-        </table>
+      </tr>
+    </table>
 
     <span class="article_seperator">&nbsp;</span>
 
-    </td></tr></table></td></tr></table></td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-				
-			</td>
-		</tr>
-		</table>
-			
-		{% include aside_sponsor.html %}
-		<br></td>      </tr>
-    </table></td>
-  </tr>
+  </td></tr></table></td></tr></table></td>
+  <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+    
+  </td>
+</tr>
+</table>
+
+{% include aside_sponsor.html %}
+<br></td>      </tr>
+</table></td>
+</tr>
 
 {% include footer.html %}
 
 </div>
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 </body>
 
 </html>

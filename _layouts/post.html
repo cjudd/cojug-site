@@ -10,61 +10,61 @@ breadcrumb: Meetup
 
 </head>
 <body>
-<div align="center"><div style="width:901px;">
+  <div align="center"><div style="width:901px;">
 
- {% include header.html %}
- {% include nav-breadcrumbs.html %}
+   {% include header.html %}
+   {% include nav-breadcrumbs.html %}
 
-<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>  </tr>
-</table>
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		       
-         {% include side_nav.html %}
+   <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+    <tr>  </tr>
+  </table>
+  <table width="100%"  border="0" cellspacing="8" cellpadding="0">
+    <tr>
+      <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+        <tr valign="top">
+          <td width="160">		       
+           {% include side_nav.html %}
 
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-			<td>
-				
-	</td>
-		</tr>
-		</table>
-		</td>        <td><div align="center"></div><div id="eventlist">	
+           <table cellpadding="0" cellspacing="0" class="moduletable">
+            <tr>
+             <td>
+              
+             </td>
+           </tr>
+         </table>
+       </td>        <td><div align="center"></div><div id="eventlist">	
 
-	<h2 class="componentheading">Meetings - Details</h2>
-	<h3> {{page.title}}</h3>
-	
-	<br />
+       <h2 class="componentheading">Meetings - Details</h2>
+       <h3> {{page.title}}</h3>
+       
+       <br />
 
-<table width="100%" class="details" markdown = "0">
-  		<tr>
-  			<th class="sectiontableheader" colspan="3">Event </th>
-  		</tr>
-  		<tr>
-    		<td class="details">When </td>
-    		<td>
-			{{page.dates}} | {{page.times}}			</td>
-    		<td rowspan="4" align="left">
-				&nbsp; 
-			</td>
-  		</tr>
-  
-  	  
-  		<tr>
-    		<td class="details">Event Title </td>
-    		<td>{{page.title}}</td>
-  		</tr>
-            
+       <table width="100%" class="details" markdown = "0">
+        <tr>
+         <th class="sectiontableheader" colspan="3">Event </th>
+       </tr>
+       <tr>
+        <td class="details">When </td>
+        <td>
+         {{page.dates}} | {{page.times}}			</td>
+         <td rowspan="4" align="left">
+          &nbsp; 
+        </td>
+      </tr>
+      
+      
+      <tr>
+        <td class="details">Event Title </td>
+        <td>{{page.title}}</td>
+      </tr>
+      
 
       <tr>
         <td class="details">Presenter </td>
         <td>{{page.author}}</td>
       </tr>
-		
-          {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
+      
+      {% assign eventLocation = site.location | where:"Venue", page.location-id  | first %}
 
       <tr>
         <td class="details">Where </td>
@@ -72,97 +72,86 @@ breadcrumb: Meetup
       </tr>
 
 
-		<tr>
-    		<td class="details">Tags </td>
-    		<td>
-				<a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>Tags Go Here</a>			</td>
-  		</tr>
-		  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-		
-  		
-  		<tr>
-    		<td class="sectiontableheader" colspan="3">Event description: </td>
-  		</tr>
-  		<tr>
-    		<td colspan='3' >
+      <tr>
+        <td class="details">Tags </td>
+        <td>
+          <a href='http://www.cojug.org/index.php?option=com_eventlist&amp;Itemid=27&amp;func=shcatev1&amp;categid=16'>Tags Go Here</a>			</td>
+        </tr>
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        
+        
+        <tr>
+          <td class="sectiontableheader" colspan="3">Event description: </td>
+        </tr>
+        <tr>
+          <td colspan='3' >
 
-					{{page.content}}
-  		</tr>
-  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-  	  	
-  	</table> 
-  	
-	  	<table width="100%" class="details">
-		<tr>
-  			<td class="sectiontableheader" colspan="3">Location </td>
-  		</tr>
-  		<tr>
-  			<td class="details">Venue</td>
-			<td colspan="2"><a href='{{eventLocation.url}}'>{{eventLocation.Venue}}</a></td>
-  		</tr>
-  		<tr>
-    		<td class="details">Homepage </td>
-   			<td>
-										<a href="http://www.oclc.org/us/en/about/headquarters/maps/" target="_blank"> {{eventLocation.Homepage}}</a>
-									</td>
-    		<td rowspan="3">
-				&nbsp; 
-	
-			</td>
-  		</tr>
-  		  		<tr>
-    		<td class="details">Street address </td>
-    		<td><a href="https://maps.google.com/?q={{eventLocation.Street}},{{eventLocation.City}},{{eventLocation.State}} {{eventLocation.ZIP}}">{{eventLocation.Street}} {{eventLocation.City}} {{eventLocation.State}} {{eventLocation.ZIP}}</a></td>
-  		</tr>
-  		  		<tr>
-    		<td colspan="3">&nbsp;</td>
-  		</tr>
-  		
-   		<tr>
-			<td colspan="3">&nbsp;</td>
-  		</tr>
-			</table>
-	
-		
-	<br />
-	<div align="center">			<div class="back_button">
-				<a href='javascript:history.go(-1)'>
-					[ Back ]</a>
-			</div>
-				</div>
-	</div>
-	<br />
-	</td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
-					
-			</td>
-		</tr>
-		</table>
-				
-						{% include aside_sponsor.html %}
+           {{page.content}}
+         </tr>
+         <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        
+      </table> 
+      
+      <table width="100%" class="details">
+        <tr>
+         <td class="sectiontableheader" colspan="3">Location </td>
+       </tr>
+       <tr>
+         <td class="details">Venue</td>
+         <td colspan="2"><a href='{{eventLocation.url}}'>{{eventLocation.Venue}}</a></td>
+       </tr>
+       <tr>
+        <td class="details">Homepage </td>
+        <td>
+          <a href="http://www.oclc.org/us/en/about/headquarters/maps/" target="_blank"> {{eventLocation.Homepage}}</a>
+        </td>
+        <td rowspan="3">
+          &nbsp; 
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="details">Street address </td>
+        <td><a href="https://maps.google.com/?q={{eventLocation.Street}},{{eventLocation.City}},{{eventLocation.State}} {{eventLocation.ZIP}}">{{eventLocation.Street}} {{eventLocation.City}} {{eventLocation.State}} {{eventLocation.ZIP}}</a></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      
+      <tr>
+       <td colspan="3">&nbsp;</td>
+     </tr>
+   </table>
+   
+   
+   <br />
+   <div align="center">			<div class="back_button">
+    <a href='javascript:history.go(-1)'>
+     [ Back ]</a>
+   </div>
+ </div>
+</div>
+<br />
+</td>
+<td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+ 
+</td>
+</tr>
+</table>
 
-		<br></td>      </tr>
-    </table></td>
-  </tr>
+{% include aside_sponsor.html %}
+
+<br></td>      </tr>
+</table></td>
+</tr>
 </table>
 {% include footer.html %}
 
 </div>
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 </body>
 </html>

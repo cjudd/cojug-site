@@ -10,113 +10,102 @@ breadcrumb: Location
 
 </head>
 <body>
-<div align="center"><div style="width:901px;">
+	<div align="center"><div style="width:901px;">
 
- {% include header.html %}
- {% include nav-breadcrumbs.html %}
+		{% include header.html %}
+		{% include nav-breadcrumbs.html %}
 
-<table width="100%"  border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
-      <tr valign="top">
-        <td width="160">		
+		<table width="100%"  border="0" cellspacing="8" cellpadding="0">
+			<tr>
+				<td><table width="100%"  border="0" cellspacing="10" cellpadding="0">
+					<tr valign="top">
+						<td width="160">		
 
-                {% include side_nav.html %}
+							{% include side_nav.html %}
 
-				<table cellpadding="0" cellspacing="0" class="moduletable">
-				<tr>
-			<td>
-				
-		</td>
-		</tr>
-		</table>
-		</td>        <td><div align="center"></div><div id="eventlist">		<div class="link">
-					</div>
-		
-			<h2 class="componentheading">Meetings - {{page.Venue}}</h2>
-				
-		<table width="100%" border="0" cellspacing="0" cellpadding="4" align="center">
-     		<tr>
-  				<td class="details" colspan="1">Venue</td>
-				<td colspan="2">{{page.Venue}}</td>
-  			</tr>
- 			<tr>
-    			<td class="details">Homepage: </td>
-  				<td>
-											<a href="{{page.Homepage}}" target="_blank">{{page.Homepage}}</a>
-										</td>
-   				<td rowspan="3">
-					 
-				</td>
-  			</tr>
-  			  			<tr>
-    			<td class="details">Street: </td>
-    			<td>{{page.Street}}</td>
-  			</tr>
-  			<tr>
-    			<td class="details">ZIP: </td>
-    			<td>{{page.ZIP}}</td>
-  			</tr>
-  			<tr>
-    			<td class="details">City </td>
-   				<td>{{page.City}}</td>
-  			</tr>
-  			<tr>
-    			<td class="details">State: </td>
-    			<td>{{page.State}}</td>
-    			<td>
+							<table cellpadding="0" cellspacing="0" class="moduletable">
+								<tr>
+									<td>
+										
 									</td>
-  			</tr>
-  			  			<tr>
-    			<td colspan="3">&nbsp;</td>
-  			</tr>
-  			<tr>
-   	 			<td class="sectiontableheader" colspan="3">Location description: </td>
-  			</tr>
-  			<tr>
-    			<td colspan="3">
-					{{content}}				</td>
-  			</tr>
-			      	</table>
-		
-	<br />
-	
-<div class="mapouter"><div class="gmap_canvas"><iframe width="520" height="400" id="gmap_canvas" src="{{page.googleMaps}}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>embed google map <a href="http://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{overflow:hidden;height:400px;width:520px;}.gmap_canvas {background:none!important;height:400px;width:520px;}</style></div>
-		<div align="center">
-	<br />
-						<div class="back_button">
-				<a href='javascript:history.go(-1)'>[ Back ]</a>
-			</div>
-			
-	</div>
-	</div>	
-	</td>
-        <td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+								</tr>
+							</table>
+						</td>        <td><div align="center"></div><div id="eventlist">		<div class="link">
+					</div>
 					
-			</td>
-		</tr>
-		</table>
+					<h2 class="componentheading">Meetings - {{page.Venue}}</h2>
+					
+					<table width="100%" border="0" cellspacing="0" cellpadding="4" align="center">
+						<tr>
+							<td class="details" colspan="1">Venue</td>
+							<td colspan="2">{{page.Venue}}</td>
+						</tr>
+						<tr>
+							<td class="details">Homepage: </td>
+							<td>
+								<a href="{{page.Homepage}}" target="_blank">{{page.Homepage}}</a>
+							</td>
+							<td rowspan="3">
 								
-						{% include aside_sponsor.html %}
+							</td>
+						</tr>
+						<tr>
+							<td class="details">Street: </td>
+							<td>{{page.Street}}</td>
+						</tr>
+						<tr>
+							<td class="details">ZIP: </td>
+							<td>{{page.ZIP}}</td>
+						</tr>
+						<tr>
+							<td class="details">City </td>
+							<td>{{page.City}}</td>
+						</tr>
+						<tr>
+							<td class="details">State: </td>
+							<td>{{page.State}}</td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="sectiontableheader" colspan="3">Location description: </td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								{{content}}				</td>
+							</tr>
+						</table>
+						
+						<br />
+						
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="520" height="400" id="gmap_canvas" src="{{page.googleMaps}}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>embed google map <a href="http://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{overflow:hidden;height:400px;width:520px;}.gmap_canvas {background:none!important;height:400px;width:520px;}</style></div>
+						<div align="center">
+							<br />
+							<div class="back_button">
+								<a href='javascript:history.go(-1)'>[ Back ]</a>
+							</div>
+							
+						</div>
+					</div>	
+				</td>
+				<td width="160">		<table cellpadding="0" cellspacing="0" class="moduletable">
+					
+				</td>
+			</tr>
+		</table>
+		
+		{% include aside_sponsor.html %}
 
 		<br></td>      </tr>
-    </table></td>
-  </tr>
+	</table></td>
+</tr>
 </table>
 {% include footer.html %}
 
 </div>
 </div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4170336-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 </body>
 </html>
