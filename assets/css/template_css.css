@@ -427,4 +427,9 @@ a.readon:hover {
   	color: rgba(0, 0, 0, 0.68);
   }
 
+  a.mainlevel:active {
+  	color: black;
+    padding-left: 20px;
+  }
+
 
