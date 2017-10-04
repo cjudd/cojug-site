@@ -39,6 +39,7 @@ permalink: pretty
 markdown: kramdown
 future: true
 theme: minima
+encoding: "utf-8"
 plugins:
   - jekyll-archives
 
