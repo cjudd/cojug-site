@@ -11,7 +11,7 @@ tags:
 ---
  **Abstract**
 
- If you’re thinking about using a document database, it can be intimidating to start. A flexible data model gives you a lot of choices, but which way is the right way? Is a document database even the right tool? In this session we’ll go over the basics of data modeling using JSON. We’ll compare and contrast with traditional RDBMS modeling. Impact on application code will be discussed, as well as some tooling that could be helpful along the way. The examples use the free, open-source Couchbase Server document database, but the principles from this session can also be applied to DocumentDb, Mongo, RavenDb, etc.
+ If you're thinking about using a document database, it can be intimidating to start. A flexible data model gives you a lot of choices, but which way is the right way? Is a document database even the right tool? In this session we’ll go over the basics of data modeling using JSON. We’ll compare and contrast with traditional RDBMS modeling. Impact on application code will be discussed, as well as some tooling that could be helpful along the way. The examples use the free, open-source Couchbase Server document database, but the principles from this session can also be applied to DocumentDb, Mongo, RavenDb, etc.
 
 **Bio**
 
