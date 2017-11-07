@@ -1,8 +1,8 @@
 ---
-id: 243
+id: 244
 title: "Kubernetes"
 author: "Gaurav Vishnoi"
-times: "11:30:00"
+times: "18:30:00"
 dates: 2017-10-10
 layout: post
 location-id: "OCLC's Kilgour building auditorium"  
