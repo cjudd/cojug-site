@@ -1,0 +1,26 @@
+---
+id: 250
+title: "From Graph to Greatness with Neo4j"
+author: "Jeffrey A. Miller"
+times: "06:30:00"
+dates: 2018-02-13
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: "Jeffrey A. Miller will be presenting From Graph to Greatness with Neo4j"
+tags: 
+---
+ **Abstract**
+
+Graph databases are changing the NoSQL database landscape in startling new ways. Fraud detection, impact analysis, and recommendation systems are only a few examples of real-world applications made possible with graph technology.
+
+Neo4j leads the industry with its powerful open source graph database platform.
+
+With compelling features and the elegant CYPHER query language, Neo4j provides tools to tackle a wide range of problems unsolvable with traditional approaches. 
+
+In this talk, you'll learn about the advantages of graph-based solutions, get a taste of the expressive query language at the heart of Neo4j, and pick up valuable tips to help you get started applying graphs to your own ideas.
+
+**Bio**
+
+Jeffrey A. Miller works as a Senior Consultant in Columbus, Ohio. He advises clients in business, government, and healthcare in effective software development practices and collaborates with partners to build valuable technology solutions. Jeffrey has delivered presentations at regional technical conferences and user groups on topics including Neo4j graph technology, knowledge management, and humanitarian healthcare projects.
+
+Jeffrey and his wife, Brandy, are aspiring adoptive parents and have written a fun children's book called "Skeeters" with proceeds supporting adoption. Learn more about the project at http://skeeterbooks.com/.
