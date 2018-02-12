@@ -2,7 +2,7 @@
 id: 250
 title: "From Graph to Greatness with Neo4j"
 author: "Jeffrey A. Miller"
-times: "06:30:00"
+times: "18:30:00"
 dates: 2018-02-13
 layout: post
 location-id: "OCLC's Kilgour building auditorium"  
