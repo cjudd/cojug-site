@@ -56,7 +56,7 @@ breadcrumb: Home
         </h2>
       </li>
 
-      <p class="decreaseSpace">{{item.description}}</p>
+      <p>{{item.description}}</p>
       <p  class="decreaseSpace"><time itemprop="meetingTime" datetime="{{post.times}}"> Time: {{item.times | date: "%I:%M %p"}} </time></p>
 
       {% assign eventLocation = site.location | where:"Venue", item.location-id  | first %}
