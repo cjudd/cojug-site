@@ -1,0 +1,18 @@
+---
+id: 259
+title: "Assert User Identity using Two-Factor Authentication with Time-based One-time Password (TOTP)"
+author: "Christopher M. Judd"
+times: "11:30:00"
+dates: 2018-07-10
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: "Chris Judd will be presenting Assert User Identity using Two-Factor Authentication with Time-based One-time Password (TOTP)."
+tags: 
+---
+ **Abstract**
+
+Based on daily news stories of data breaches and unauthorized access like Mark Zuckerberg’s Twitter account being hacked, it is obvious that passwords are not enough to protect users or assert their identity. Providing two-factor authentication is a critical feature for validating a user is who they say they are. The first factor is something you know, like your standard password. The second factor is something you have, like a Time-based One-time Password (TOTP mobile application) or something you are, like retina or finger print. This session will show you how to make your applications more secure by easily adding a second factor to your existing authentication process by leveraging a TOTP algorithm and using a TOTP mobile application such as Google Authenticator or Authy application.
+
+**Bio**
+
+Christopher Judd is CTO and partner at Manifest Solutions (http://www.manifestcorp.com), an international speaker, Java Champion, an open source evangelist, and the Central Ohio Java Users Group (http://www.cojug.org) leader.  He is an accomplished writer having co-authored Beginning Groovy and Grails (Apress, 2008), Enterprise Java Development on a Budget (Apress, 2003) and Pro Eclipse JST (Apress, 2005) as well as the author of the children’s book “Bearable Moments”.  Based in Columbus Ohio, he has spent over 20 years architecting and developing software for organizations ranging from Fortune 50 companies to start-ups across various industries including insurance, health care, education, retail, government, manufacturing, service, and transportation.  Mr. Judd spends most of his time consulting while continuing to focus on mentoring and training in Java, mobile and related technologies.
