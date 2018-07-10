@@ -13,6 +13,7 @@ tags:
 
 Based on daily news stories of data breaches and unauthorized access like Mark Zuckerberg’s Twitter account being hacked, it is obvious that passwords are not enough to protect users or assert their identity. Providing two-factor authentication is a critical feature for validating a user is who they say they are. The first factor is something you know, like your standard password. The second factor is something you have, like a Time-based One-time Password (TOTP mobile application) or something you are, like retina or finger print. This session will show you how to make your applications more secure by easily adding a second factor to your existing authentication process by leveraging a TOTP algorithm and using a TOTP mobile application such as Google Authenticator or Authy application.
 
+[Slides](https://s3.amazonaws.com/cmj-presentations/totp-cojug-2018.pdf)
 
 **Bio**
 
