@@ -13,6 +13,8 @@ tags:
 
 During the past 8 years, Kevin has examined how cryptography has been used in 300+ different projects from a security risk perspective. This includes 85+ design reviews well over 100 secure code reviews (mostly Java with some C/C++ and C# thrown in for good measure) performed for two different companies. That includes both proprietary code of these 2 companies, proprietary vendor code reviewed under NDAs, as well as some FOSS code. This talk explores the most commonly observed applied cryptography mistakes made by developers during that 8 year window and briefly describes how to correct them.
 
+[Slides](https://github.com/kwwall/presentations/blob/master/kwwall-cojug-2018-09-11.pptx)
+
 **Bio**
 
 Kevin Wall has been involved in application security for the past 15+ years, but he still considers himself a developer first and an appsec engineer second.  During most of those 15+ years, Kevin has specialized in applied cryptography and web appsec. Before transitioning to appsec, Kevin spent 17 years at (now Nokia, then AT&T) Bell Labs, leaving there as a DMTS in 1996 to become an independent consultant in C++ and Java.
