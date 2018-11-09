@@ -1,0 +1,18 @@
+---
+id: 268
+title: "CQRS and the Axon Framework"
+author: "Seth Kraut"
+times: "18:30:00"
+dates: 2018-11-13
+layout: post
+location-id: "OCLC's Kilgour building auditorium"  
+description: "Steve Swing of Substratum will be presenting CQRS and the Axon Framework."
+tags: 
+---
+**Abstract**
+
+CQRS stands for Command Query Responsibility Segregation, which doesn’t clarify that much. CQRS is a high performance, event oriented flavor of Domain Driven Design. The Axon framework handles most of the glue code for CQRS and allows you to focus on writing code that delivers business value
+
+**Bio**
+
+Seth Kraut has over 20 years of programming experience. His passion is developing clean abstractions that simplify code. Seth has a BS in Computer Science and an MBA from the Ohio State University. In his free time, he tries to keep up with his kids. You can reach him by email at seth@sethkraut.com or on twitter at @sethkraut.
