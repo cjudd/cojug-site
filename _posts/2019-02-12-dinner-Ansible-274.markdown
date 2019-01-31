@@ -6,7 +6,7 @@ times: "18:30:00"
 dates: 2019-02-12
 layout: post
 location-id: "OCLC's Kilgour building auditorium"  
-description: "Raju Gundhi will be presenting I-a-a-C with Ansible"
+description: "Raju Gandhi will be presenting I-a-a-C with Ansible"
 tags: 
 ---
 **Abstract**
