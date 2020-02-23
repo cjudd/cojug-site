@@ -3,7 +3,7 @@ id: 296
 title: "Learning to Code in Functional Style in Java"
 author: "Venkat Subramaniam"
 times: "18:30:00"
-dates: 2022-02-11
+dates: 2020-02-11
 layout: post
 location-id: "OCLC's Kilgour building auditorium"  
 description: "The incomparable Venkat Subramaniam will be teaching us how to code in a functional style with live code."
