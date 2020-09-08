@@ -16,6 +16,8 @@ This presentation will be virtual and details will be coming...
 
 Java Modules are the future. However, our enterprise applications have legacy code, a lots of it. How in the world do we migrate from the old to the new? What are some of the challenges. In this presentation we will start with an introduction to modules and learn how to create them. Then we will dive into the differences between unnamed modules, automatic modules, and explicit modules. After that we will discuss some key limitations of modules, things that may surprise your developers if they're not aware of. Finally we will discuss how to migrate current applications to use modules.
 
+You can attend the webinar at <a href="https://zoom.us/webinar/register/WN_7TwzFHfvQSmwlfwVWzrR6w">https://zoom.us/webinar/register/WN_7TwzFHfvQSmwlfwVWzrR6w</a>. The event is limited to 100 people and it is first come first serve.
+
 **Bio**
 
 Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston.
