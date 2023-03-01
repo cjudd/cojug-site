@@ -19,6 +19,8 @@ Currently, a new Java version is released every six months, and the ECMAScript s
 
 Let’s have some fun and see how many analogous things have appeared in two languages with similar names that are so often discussed as opposites. The big picture always helps to decide which instrument is better for the tail and which for the trunk.
 
+[Slides](https://cmj-presentations.s3.amazonaws.com/cojug/Java_JS_en_Jugs.pdf)
+
 **Bio**
 
 Dmitry Chuyko is a performance engineer at BellSoft, an OpenJDK committer, and a public speaker. Prior to joining BellSoft, Dmitry worked on the Hotpot JVM at Oracle, and before that he had many years of programming experience in Java. He is currently focused on optimizing HotSpot for x86 and ARM, previously being involved in rolling out JEP 386, which enables the creation of the smallest JDK containers. Dmitry continues his journey in the containerization process and is happy to share his insights and expertise in this field. Dmitry is a well-known speaker in the Java community, and one of his recent public presentations is available here.
