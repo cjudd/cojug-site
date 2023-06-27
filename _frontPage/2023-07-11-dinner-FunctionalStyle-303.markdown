@@ -13,6 +13,8 @@ tags:
 
 __In-person ONLY event__
 
+Please RSVP at https://www.meetup.com/techlifecolumbus/events/294212319/
+
 **Abstract**
 
 Learning syntax is part of our lives and that comes from practice. The challenge with programming in the functional style is to be able to think in a paradigm that is different from the one we are used to. In this live coding presentation, we will take a look at how to promote such thinking by taking some imperative style code and refactoring to functional style. Along the way, we will discuss the thought process to make the journey a pleasant experience and also explore functions baked into the JDK that make this possible.
