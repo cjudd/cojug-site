@@ -6,7 +6,7 @@ Street:	"2035 Riverside Drive"
 ZIP:	43221
 City:	Upper Arlington
 State: OH
-googleMaps: "https://goo.gl/maps/EFTEuFt2DvUkCAMYA"
+googleMaps: "https://goo.gl/maps/UqJraeBm3EksnQ4U6"
 layout: location
 categories: 
     - "location"
