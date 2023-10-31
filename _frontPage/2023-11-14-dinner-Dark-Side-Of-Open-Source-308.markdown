@@ -3,7 +3,7 @@ id: 308
 title: "The Dark Side of Open Source Productivity"
 author: "Darren Meyer"
 times: "18:30:00"
-dates: 2023-10-10
+dates: 2023-11-14
 layout: post
 location-id: "Manifest Solutions"
 description: "Darren Meyer will be presenting The Dark Side of Open Source Productivity."
