@@ -25,6 +25,8 @@ As it turns out, the namespace changes ripple throughout the entire Java ecosyst
 
 Attending this session will teach you how to make this migration as smooth as possible. A live coding demo will take you through the steps involved, and point out where to pay special attention. We will also briefly examine some of the changes planned for Jakarta EE 11 that will prepare you for what to expect in future versions of Spring.
 
+[Video - https://www.youtube.com/watch?v=VXGuKFfkp_M&t=2s](https://www.youtube.com/watch?v=VXGuKFfkp_M&t=2s){:target="_blank"}
+
 **Bio**
 
 Gerrit Grunwald is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon). 

@@ -17,7 +17,7 @@ Static analysis tools do a great job of telling us we write terrible code, but t
  
 I'll also give a brief walkthrough of the RefactorFirst codebase (it's pretty small) so you can see for yourself how God classes are identified and ranked. At the end, I'd love to hear your feedback and ideas on how RefactorFirst can be improved.
 
-[Attend Online](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjBmNDNiM2ItZTg5ZC00MmMzLWJmODAtMjEwZTkyMWU1NTgw%40thread.v2/0?context=%7b%22Tid%22%3a%221152097c-85c7-4b1f-bd6f-5d702b356170%22%2c%22Oid%22%3a%2231c53ca3-9dfe-4e4e-ab37-f4c6cf220ae9%22%7d)
+[Video - https://www.youtube.com/watch?v=5UJf7r0npqM&t=2s](https://www.youtube.com/watch?v=5UJf7r0npqM&t=2s){:target="_blank"}
 
 **Bio**
 

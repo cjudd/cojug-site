@@ -27,6 +27,8 @@ Real-world applications and use cases
 Exploration of various open-source LLMs and their unique capabilities
 Build a complete working application using prompt engineering
 
+[Video - https://www.youtube.com/watch?v=XT23-0D2jJs&t=1s](https://www.youtube.com/watch?v=XT23-0D2jJs&t=1s){:target="_blank"}
+
 **Bio**
 
 Nilanjan Raychaudhuri is an entrepreneur, builder, and software engineer living in Columbus, Ohio. My interests are product development, entrepreneurship, technology, and programming languages.
