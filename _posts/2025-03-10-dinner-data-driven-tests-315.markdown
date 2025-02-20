@@ -15,6 +15,8 @@ tags:
 
 Everyone knows that performing tests during development is the Right Thing to do. But how do we test data driven test cases? How can we ensure clean environments, reproducible outcomes, setting the database with the correct state, ensuring results match expectations, and so on? The Java ecosystem offers several options that we can leverage to answer these questions. In this session we'll cover how to configure data driven testcases with Testcontainers, setup database state and verify results with DbUnit and Database Rider, even test PL/SQL statements.
 
+[Slides](/assets/downloads/domain-driven-design-strategic.pdf)
+
 [Virtual Meeting Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTliYzgwOTMtNmJiNS00YzkwLWI2MGUtYmE3MmI4ZjlkNGJh%40thread.v2/0?context=%7b%22Tid%22%3a%221152097c-85c7-4b1f-bd6f-5d702b356170%22%2c%22Oid%22%3a%2231c53ca3-9dfe-4e4e-ab37-f4c6cf220ae9%22%7d){:target="_blank"}
 
 **Bio**
